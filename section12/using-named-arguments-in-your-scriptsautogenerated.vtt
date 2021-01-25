@@ -1,0 +1,45 @@
+WEBVTT
+
+0
+00:03.010 --> 00:12.220
+All right, so the script using this '$1' is pretty--pretty helpful, but if you want to take more arguments
+
+1
+00:12.220 --> 00:18.700
+like the second or third argument, it starts to get hard to keep track of which argument at which.
+
+2
+00:19.750 --> 00:20.940
+So this is nice:
+
+3
+00:20.950 --> 00:23.500
+You can do some named arguments.
+
+4
+00:25.300 --> 00:34.330
+Let's make a variable here: 'search_dir=$1' and then replace that with '$search_dir'.
+
+5
+00:35.320 --> 00:37.240
+So those are just called named arguments.
+
+6
+00:39.160 --> 00:40.390
+So now if we do
+
+7
+00:43.400 --> 00:46.630
+'/Users' or '/Users/goku'
+
+8
+00:49.810 --> 00:50.770
+[To self] Forgot a star on here..
+
+9
+00:59.030 --> 01:01.010
+It lists all the directories in the files.
+
+10
+01:03.970 --> 01:07.870
+And it's basically the same output, but we use that named directory (argument).

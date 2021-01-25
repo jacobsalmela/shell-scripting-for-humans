@@ -1,0 +1,121 @@
+WEBVTT
+
+0
+00:02.850 --> 00:10.740
+Remember how I mentioned that certain characters have a special meaning? So if you type backslash,
+
+1
+00:12.510 --> 00:14.550
+it's--against the US dollar sign.
+
+2
+00:15.410 --> 00:21.410
+It's going to print the actual variable name so you can use that backslash to escape other special characters,
+
+3
+00:21.410 --> 00:21.770
+too.
+
+4
+00:22.610 --> 00:29.950
+So if you hold shift and type backslash, it'll type out this pipe character.  And this character's
+
+5
+00:29.960 --> 00:36.890
+special power basically lets you send the output of one command to the input of another command.
+
+6
+00:37.280 --> 00:40.370
+And this is aptly called, redirection.
+
+7
+00:40.790 --> 00:41.870
+At the end of this section
+
+8
+00:41.870 --> 00:43.340
+you'll see why it's so useful.
+
+9
+00:44.900 --> 00:49.310
+So here's an example and a fun new command, too.  Type
+
+10
+00:52.340 --> 01:02.330
+'alucard' and then do a greater than and just put it into a file-- just a regular text file--and then use the
+
+11
+01:02.330 --> 01:04.940
+'rev' command--stands for "reverse".
+
+12
+01:08.000 --> 01:09.560
+And what do you know, there's Dracula.
+
+13
+01:11.390 --> 01:14.700
+So it basically just reversed the text to spell out "Dracula".
+
+14
+01:16.760 --> 01:22.130
+So that's how you normally use the 'rev' command: you type 'rev' and then give it a file name.
+
+15
+01:23.330 --> 01:25.400
+But you can actually do the same thing
+
+16
+01:28.100 --> 01:28.810
+with the pipe.
+
+17
+01:28.970 --> 01:30.920
+You can skip the file all together.
+
+18
+01:31.640 --> 01:39.650
+So you just do 'echo alucard | rev' and you get the same thing.
+
+19
+01:40.190 --> 01:41.760
+So you don't even need the file there.
+
+20
+01:41.960 --> 01:51.740
+So basically when you pipe the output of this 'echo' command into the 'rev' command, it uses it just like it
+
+21
+01:51.740 --> 01:52.430
+would a file.
+
+22
+01:53.000 --> 01:59.840
+So you could do all sorts of different manipulations using the pipe this way and you can keep doing
+
+23
+01:59.840 --> 02:08.840
+it so you can pipe it back into rev to reverse it again to get your original output. So you can keep
+
+24
+02:08.840 --> 02:10.760
+adding these as many times as you want.
+
+25
+02:14.290 --> 02:21.220
+Once you start getting a whole bunch of these and you're doing different commands here, it gets a little
+
+26
+02:21.220 --> 02:22.780
+bit more resource intensive.
+
+27
+02:22.960 --> 02:29.110
+So depending on what you're doing, this isn't always the most efficient option, but it's a good way
+
+28
+02:29.110 --> 02:30.320
+to start learning and how to
+
+29
+02:31.760 --> 02:32.950
+manipulate things.

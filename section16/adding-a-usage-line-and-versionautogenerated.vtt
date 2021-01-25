@@ -1,0 +1,221 @@
+WEBVTT
+
+0
+00:03.240 --> 00:09.900
+All right, so our script is going to start to grow now, so let's give it a usage line so people know
+
+1
+00:09.900 --> 00:15.400
+how to use it because we have a lot to--let's copy it first.
+
+2
+00:16.470 --> 00:20.190
+Let's make a script called usage.sh.
+
+3
+00:26.270 --> 00:26.840
+And then--
+
+4
+00:30.650 --> 00:33.640
+so right now, we're just calling these, but that's OK.
+
+5
+00:39.100 --> 00:44.050
+So let's say 'anything below this line with a'
+
+6
+00:52.620 --> 00:55.960
+#/ will show up in the usage line
+
+7
+01:00.040 --> 01:13.190
+So I'll add a comment with a slash, and say 'Usage:' this is 'usage.sh' and we to have a '--help' flag
+
+8
+01:13.240 --> 01:14.440
+to show our usage
+
+9
+01:17.830 --> 01:18.670
+and that's optional;
+
+10
+01:18.680 --> 01:19.540
+we don't need it.
+
+11
+01:22.570 --> 01:32.110
+And then we're also going to have a version.  It's also nice to just put, you know, a one line
+
+12
+01:32.110 --> 01:33.880
+sentence about what the thing does.
+
+13
+01:36.100 --> 01:36.290
+A command
+
+14
+01:36.360 --> 01:37.780
+line script that does something.
+
+15
+01:48.840 --> 01:57.300
+But now we need an actual way, a function to convert these style comments into a--
+
+16
+01:59.570 --> 02:03.790
+into a--something they can print out on the screen, because since these are comments, they're not going
+
+17
+02:03.790 --> 02:11.320
+to print, but we can use some little special magic using grep here.  So you can do a function called
+
+18
+02:11.320 --> 02:12.070
+usage.
+
+19
+02:13.960 --> 02:17.770
+Get your brackets there and then do 'grep'
+
+20
+02:21.610 --> 02:24.160
+Yeah, this the carrot, the carrot pointing up.
+
+21
+02:25.300 --> 02:26.440
+So that says:
+
+22
+02:28.630 --> 02:38.160
+"At the start of the line, look for things that start with #/", and that's our little regex
+
+23
+02:38.170 --> 02:38.520
+thing.
+
+24
+02:40.240 --> 02:44.110
+$0--and that's the running script--
+
+25
+02:44.740 --> 02:50.470
+our script. 'cut' characters, 4
+
+26
+02:52.730 --> 02:53.510
+So one.
+
+27
+02:54.910 --> 02:57.040
+One, two, three, four.
+
+28
+03:00.040 --> 03:06.250
+So this will start at this letter here, the fourth character, and print everything after it.
+
+29
+03:10.590 --> 03:12.660
+So write that and then.
+
+30
+03:17.300 --> 03:20.500
+But yeah, so are things still, isn't there?
+
+31
+03:22.710 --> 03:26.840
+So it's running stuff, but it's not actually showing our help menu.
+
+32
+03:29.590 --> 03:34.540
+Ahh, that's because we need another little command that will do that for you.
+
+33
+03:35.920 --> 03:42.490
+So let's add that in here and let's get rid of this because we don't actually want to see that.
+
+34
+03:44.560 --> 03:48.730
+But we do want to see our usage line if somebody passes --help.
+
+35
+03:50.380 --> 03:53.560
+So this is just a slick little way to do this.
+
+36
+03:54.530 --> 03:56.190
+We use this expr command.
+
+37
+03:57.280 --> 04:02.530
+And remember, this is all the arguments as a space delimited list.
+
+38
+04:04.720 --> 04:11.810
+And if it starts with--if the flag--one of those flags is '--version'...
+
+39
+04:16.210 --> 04:17.950
+this thing, I haven't quite shown you yet:
+
+40
+04:17.950 --> 04:27.640
+but this will basically just send the output of this expression command into this little special file,
+
+41
+04:28.330 --> 04:29.620
+which makes it be silent.
+
+42
+04:31.420 --> 04:41.320
+So if this command was successful and we don't see the output, we want to run our usage function,
+
+43
+04:42.550 --> 04:47.740
+which will print all of this, minus these comment characters.
+
+44
+04:52.210 --> 04:55.870
+So now if we run usage--and actually...
+
+45
+05:02.170 --> 05:05.530
+so I should just be able to run 'usage.sh' here...yep!
+
+46
+05:10.290 --> 05:11.550
+So if I pass '--help',
+
+47
+05:18.670 --> 05:20.340
+And actually our thing is,
+
+48
+05:23.520 --> 05:27.450
+we want to get rid of that because we're not too concerned about the first argument right now.
+
+49
+05:35.700 --> 05:38.430
+Fail.
+
+50
+05:44.350 --> 05:44.860
+There we go.
+
+51
+05:45.760 --> 05:56.270
+And we got our usage. So if we look at the script, you see it printed these lines here minus the--the
+
+52
+05:56.470 --> 05:57.190
+comments.
+
+53
+06:01.420 --> 06:07.870
+So we actually did--do need that version back in there, too. So let's just add both of those.
+
+54
+06:14.560 --> 06:18.070
+So if they pass '--version' we'll run the version function.

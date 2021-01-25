@@ -1,0 +1,29 @@
+WEBVTT
+
+0
+00:02.630 --> 00:10.430
+All right, so those things you saw in the last lecture with the getting options, those were using
+
+1
+00:10.610 --> 00:12.320
+some loops you haven't seen yet.
+
+2
+00:13.070 --> 00:19.550
+So I'm just going to cover the 'for' loop again real quick because it's useful and then it'll get your
+
+3
+00:19.550 --> 00:29.270
+mind in the mode of loops. So you can just write these right on the command line 'for n in' "whatever"
+
+4
+00:29.270 --> 00:32.540
+one to six--one two five 'do echo $n'
+
+5
+00:38.570 --> 00:47.720
+'sleep' for one--one, two, three, four, five. So it's just a simple loop that lets you
+
+6
+00:47.720 --> 00:48.910
+do something over and over.

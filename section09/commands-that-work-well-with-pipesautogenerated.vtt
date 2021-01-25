@@ -1,0 +1,49 @@
+WEBVTT
+
+0
+00:02.390 --> 00:05.060
+So some commands work better with pipes than others.
+
+1
+00:06.290 --> 00:09.680
+There's lots of them that deal with text or files that work really good.
+
+2
+00:10.550 --> 00:23.690
+There's a command called 'tr'.  One called 'sed', 'awk', 'cut', 'grep', 'diff' and 'sort'.
+
+3
+00:24.050 --> 00:25.520
+You don't have to remember all those right now.
+
+4
+00:25.520 --> 00:27.080
+I'm just showing you a few examples.
+
+5
+00:27.540 --> 00:34.340
+So usually there's some interactive programs like where the program will and ask a question and you
+
+6
+00:34.340 --> 00:35.490
+have to type in an answer.
+
+7
+00:36.170 --> 00:42.140
+Programs like that don't usually work that well with pipes because they're expecting different kind
+
+8
+00:42.140 --> 00:43.340
+of input from the user
+
+9
+00:43.640 --> 00:45.680
+that's more procedural.
+
+10
+00:47.410 --> 00:53.050
+Some of those other programs I listed will work a lot better for pipes, but I think we're going to
+
+11
+00:53.050 --> 00:56.230
+use a pipe in your script now and we'll see what you can do.

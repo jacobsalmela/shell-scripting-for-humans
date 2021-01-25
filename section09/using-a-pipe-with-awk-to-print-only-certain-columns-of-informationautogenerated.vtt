@@ -1,0 +1,65 @@
+WEBVTT
+
+0
+00:04.380 --> 00:10.230
+So 'awk' is another useful command to use with the pipe.
+
+1
+00:13.940 --> 00:20.300
+You can basically use it to--when you have different columns of text that you're working with, so like
+
+2
+00:20.300 --> 00:24.410
+'ls -l' has this column, this column, this column.
+
+3
+00:26.120 --> 00:34.520
+You can pipe it into 'awk', and let's say we only wanted to print the file permissions of these folders.
+
+4
+00:36.650 --> 00:41.020
+You can do that: '{print $1}'
+
+5
+00:44.760 --> 00:45.670
+Oops, I forgot the 'awk'
+
+6
+00:52.150 --> 00:58.570
+So there now you just printed only that first column, you could do the same with the second column
+
+7
+00:58.570 --> 01:04.270
+if you wanted those are all 1's; or the users of all them
+
+8
+01:07.750 --> 01:08.470
+and this
+
+9
+01:10.100 --> 01:15.260
+column might be useful to see, but there's this "total"  word that got stuck in there.
+
+10
+01:16.340 --> 01:18.590
+You can actually fix that with just another pipe.
+
+11
+01:20.030 --> 01:26.770
+You can use this 'grep' command and search for everything except total.
+
+12
+01:26.840 --> 01:28.580
+That's what the '-v' flag does.
+
+13
+01:29.870 --> 01:30.800
+And then there, it's gone.
+
+14
+01:32.100 --> 01:37.230
+So you can--when you first starting out, you can just, you know, keep piping and piping and
+
+15
+01:38.110 --> 01:42.090
+different commands until you get just the information that you want.

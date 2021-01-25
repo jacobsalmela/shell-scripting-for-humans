@@ -1,0 +1,66 @@
+WEBVTT
+
+0
+00:03.240 --> 00:08.370
+All right, so if your screen doesn't look like this does right now and you've got some other weird
+
+1
+00:08.370 --> 00:14.490
+stuff on there, it's probably easier at this point just to close your window and then open it again
+
+2
+00:15.480 --> 00:16.530
+and just type 'vim
+
+3
+00:16.530 --> 00:18.190
+second_script.sh' and press enter.
+
+4
+00:19.890 --> 00:27.780
+So once you're here, all I want you to do is just press the letter "i" once.  So you'll see this change
+
+5
+00:27.780 --> 00:28.490
+to insert.
+
+6
+00:29.430 --> 00:35.090
+That means you can write text however you want now, and it's called Insert Mode.
+
+7
+00:35.430 --> 00:39.840
+It's one of a few different modes that I'm going to show you about, but this is the one you'll use
+
+8
+00:39.840 --> 00:42.330
+the most because you're just going to be writing text.
+
+9
+00:43.620 --> 00:44.850
+So here's what I want
+
+10
+00:44.850 --> 00:46.110
+your first line to be:
+
+11
+00:49.410 --> 00:54.180
+basically the hash sign, exclamation point, bin bash 
+(#!/bin/bash)
+
+12
+00:56.430 --> 01:02.180
+And then that should always be the first line of code that you're going to write any time you do a shell
+
+13
+01:02.190 --> 01:06.030
+script, I'll teach you what this line is in the next lesson.
+
+14
+01:06.210 --> 01:13.290
+But basically, I want you to remember from this lesson that once you open them, you press "i" once and
+
+15
+01:13.290 --> 01:14.970
+then you can just type your text as normal.

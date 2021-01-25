@@ -1,0 +1,29 @@
+WEBVTT
+
+0
+00:03.610 --> 00:04.690
+So let's look at this,
+
+1
+00:08.620 --> 00:10.330
+let's add another if here.
+
+2
+00:14.940 --> 00:16.020
+We'll see if it's--
+
+3
+00:23.240 --> 00:28.550
+If...if our filename variable is a file name.
+
+4
+00:35.230 --> 00:38.320
+[ERROR DETECTION TRIGGER] Vimfraction!
+
+5
+00:45.200 --> 00:46.660
+Now to run that script.
+
+6
+00:47.590 --> 00:50.650
+All right, so it's a--the filename matches and it's a file.

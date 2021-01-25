@@ -1,0 +1,62 @@
+WEBVTT
+
+0
+00:02.910 --> 00:06.590
+Go ahead and run your script: './vars.sh'
+
+1
+00:07.820 --> 00:14.750
+"Darth Vader follows the dark side." So your variable--I'm going to cat this file--
+
+2
+00:17.400 --> 00:25.920
+Your variable was set to dark, and when you use this dollar sign syntax, it basically put down your
+
+3
+00:25.920 --> 00:28.470
+value there instead of the variable name.
+
+4
+00:30.000 --> 00:36.690
+So when you're doing this, this is called parameter expansion
+[nerdy music] "Parameter expansion!"
+
+5
+00:37.770 --> 00:40.490
+You can experiment a bit with this on the command line here.
+
+6
+00:41.340 --> 00:51.100
+So let's make a new variable 'sneaking_suit="sold snake"'.
+
+7
+00:51.750 --> 00:57.300
+So now if you're going to use spaces in your variable names, you have to put double quotes around them.
+
+8
+00:58.080 --> 01:00.060
+Otherwise it won't work.
+
+9
+01:00.810 --> 01:02.280
+Now, if I echo.
+
+10
+01:13.590 --> 01:16.130
+my variable name...
+
+11
+01:18.200 --> 01:26.270
+"Solid snake is in the sneaking suit." So if you happen to leave off the dollar sign, it's just going
+
+12
+01:26.270 --> 01:31.960
+to say "sneaking_suit" because it doesn't know you're not telling it that this is a name of a variable.
+
+13
+01:32.060 --> 01:37.580
+So in the next lecture, I'm going to teach you how to list out the actual variable name, which can
+
+14
+01:37.580 --> 01:38.650
+be kind of useful.

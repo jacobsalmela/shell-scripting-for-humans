@@ -1,0 +1,110 @@
+WEBVTT
+
+0
+00:02.900 --> 00:08.960
+All right, so let's implement this pipe character into your lowercase renaming script.
+
+1
+00:12.150 --> 00:14.540
+So let's just echo out the file name
+
+2
+00:18.050 --> 00:23.090
+and then do the pipe into this 'tr' command, "translate".
+
+3
+00:26.900 --> 00:31.730
+And we want all the capital letters, A to Z.
+
+4
+00:33.020 --> 00:36.980
+We want to translate those into lowercase.
+
+5
+00:40.140 --> 00:46.520
+And then escape, ":wq".  So let's run that and see if that works.
+
+6
+00:47.220 --> 00:48.090
+Yep, perfect.
+
+7
+00:50.130 --> 00:50.610
+So if you do
+
+8
+00:50.730 --> 00:52.470
+'ls'
+
+9
+00:52.770 --> 00:55.590
+It just renamed all those to--well it wouldn't rename them;
+
+10
+00:55.590 --> 00:56.460
+We just echoed it.
+
+11
+00:57.540 --> 01:03.770
+So now that we can do that, it's pretty trivial to change that.
+
+12
+01:05.100 --> 01:14.580
+We're just going to make this a new variable:  'newname='
+and then we'll put it in '$()'
+
+13
+01:15.810 --> 01:29.550
+to save that command output, STDOUT', into the variable and 'mv' the existing file name, '$f', to make '$newname'
+
+14
+01:31.330 --> 01:32.820
+Escape, ":wq"
+
+15
+01:35.370 --> 01:41.790
+So let's clear the screen and see if we can do this--'ls -l IMG*'.
+
+16
+01:42.870 --> 01:45.870
+So there's all our capital file names there.
+
+17
+01:47.870 --> 01:52.460
+Run the lowercase script. Do it again.
+
+18
+01:54.010 --> 02:01.990
+Yep, and that's good, and there they're all lowercase.  So you just use the pipe character.
+
+19
+02:02.530 --> 02:03.670
+Let's look at the script again.
+
+20
+02:08.800 --> 02:16.330
+So here's what you did: you created a new variable named 'newname' because we wanted wanted to have
+
+21
+02:16.330 --> 02:19.810
+something to rename our files to.
+
+22
+02:21.010 --> 02:25.140
+So we 'echo'd the current file name, which was all caps.
+
+23
+02:25.150 --> 02:33.490
+And then we piped it to this 'tr' command and we said "search for all the A to Z capital letters
+
+24
+02:33.640 --> 02:36.640
+and replace those with lowercase letters."
+
+25
+02:37.340 --> 02:43.630
+And then since that new file name was saved in the variables, we could just rename it.
+
+26
+02:43.630 --> 02:50.050
+We said mv--or rename--the existing file to the lowercase one.

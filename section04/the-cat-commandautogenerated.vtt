@@ -1,0 +1,73 @@
+WEBVTT
+
+0
+00:01.840 --> 00:07.210
+So now you know how to basically manipulate files, you can move and copy them around, but it's nice
+
+1
+00:07.210 --> 00:08.980
+to be able to see what's inside them, too.
+
+2
+00:09.160 --> 00:11.690
+So that's where the cat command comes in useful.
+
+3
+00:11.920 --> 00:18.310
+So this command is actually kind of interesting because it's one of the most misused commands in all
+
+4
+00:18.310 --> 00:18.970
+of Linux.
+
+5
+00:19.630 --> 00:24.010
+And some hardcore Linux users will shame you if you use it the wrong way.
+
+6
+00:24.010 --> 00:27.790
+But in real life, this is what you'll be doing all the time.
+
+7
+00:28.720 --> 00:32.110
+So you can just write 'cat my_moved_file'.
+
+8
+00:36.300 --> 00:42.630
+So there's something in that file, but cat is actually short for concatenate.  You can use this command
+
+9
+00:42.630 --> 00:44.250
+on your two files at once.
+
+10
+00:45.960 --> 00:49.280
+my_moved_file and my_copied_file.
+
+11
+00:50.780 --> 00:58.190
+So this they both had the same thing in their the word "something", so but you can pass as many files
+
+12
+00:58.190 --> 00:59.190
+as you want to here.
+
+13
+01:00.710 --> 01:07.370
+You could pass all the files in in the Desktop.
+
+14
+01:08.510 --> 01:10.520
+So you do 'Desktop/*'.
+
+15
+01:13.310 --> 01:18.140
+There's just all all of your scripts that you have written, all just in one big line.
+
+16
+01:19.010 --> 01:24.560
+So there's not always a lot of purpose to concatenate a whole bunch of files, but it can be useful
+
+17
+01:24.560 --> 01:31.430
+at times, but it's perfectly fine to just use cat get one file and look at it.

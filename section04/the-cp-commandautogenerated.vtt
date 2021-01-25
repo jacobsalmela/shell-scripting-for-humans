@@ -1,0 +1,17 @@
+WEBVTT
+
+0
+00:02.690 --> 00:12.200
+So the cp command is a similar syntax to mv: you need the path to an existing file and then the
+
+1
+00:12.200 --> 00:13.370
+path to a new file.
+
+2
+00:14.540 --> 00:21.680
+So if I wanted to copy my new file into my copy.
+
+3
+00:28.430 --> 00:30.940
+And there you see both of the files right there.

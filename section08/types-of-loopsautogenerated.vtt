@@ -1,0 +1,37 @@
+WEBVTT
+
+0
+00:04.380 --> 00:09.660
+OK, I'm going to clear this. There's loops that you can use in your shell, just like most programming
+
+1
+00:09.660 --> 00:13.710
+languages, there's actually different kind of loops that you can use for different situations.
+
+2
+00:14.430 --> 00:19.490
+The syntax is a little bit different, but in general, you'll find these types of loops:
+
+3
+00:19.740 --> 00:25.730
+There's a 'for' loop, which is just a simple way to loop an arbitrary amount of times.
+
+4
+00:27.390 --> 00:31.620
+There's a 'while' loop which lets you loop until a certain condition is true.
+
+5
+00:32.460 --> 00:38.490
+And then there's a 'case', a statement also called a 'switch' statement, which is kind of like a loop,
+
+6
+00:39.150 --> 00:46.230
+but you can basically predefine a bunch of criteria to match and the default value if nothing is matched.
+
+7
+00:48.330 --> 00:52.190
+So in the next lecture, I'm going to show you about the for loop.
+
+8
+00:52.500 --> 00:56.940
+It's one of the most versatile ones you'll use, and I think you'll enjoy it.

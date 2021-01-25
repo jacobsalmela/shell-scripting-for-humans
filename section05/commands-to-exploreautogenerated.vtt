@@ -1,0 +1,25 @@
+WEBVTT
+
+0
+00:02.970 --> 00:12.060
+So, you know already that there are some commands in /usr/bin, but there's a couple other places
+
+1
+00:12.060 --> 00:17.670
+you can look and explore for commands.  There's /usr/sbin, which is like super user commands.
+
+2
+00:18.780 --> 00:24.180
+so these ones, you might not be able to run if you're just a regular user, but you can at least look
+
+3
+00:24.180 --> 00:25.050
+and see what's there.
+
+4
+00:26.310 --> 00:36.720
+There's usually some in /usr/local/sbin--bin--so /usr/sbin and /usr/bin.
+
+5
+00:37.590 --> 00:41.880
+So try looking through those locations and see if you can use the help flag in any of those other ones.

@@ -1,0 +1,145 @@
+WEBVTT
+
+0
+00:04.930 --> 00:09.820
+So this is the graphical interface or the GUI, graphical user interface.
+
+1
+00:10.720 --> 00:17.620
+There's windows, buttons, colors, text, all sorts of stuff that makes it really comfortable and
+
+2
+00:17.620 --> 00:18.520
+easy to use.
+
+3
+00:19.750 --> 00:25.420
+But when you switch to doing shell scripts, you're going to use what's called a command line interface.
+
+4
+00:26.260 --> 00:28.000
+So you actually have one built into your Mac.
+
+5
+00:28.000 --> 00:28.930
+It's called Terminal.
+
+6
+00:29.170 --> 00:33.390
+If you press command and space, you'll open this little searchlight window.
+
+7
+00:34.510 --> 00:39.370
+If you don't have that, you can click this little magnifying glass and just type in 'terminal'.
+
+8
+00:40.300 --> 00:43.150
+And it's usually the first response and just press enter.
+
+9
+00:44.270 --> 00:52.670
+And that will open it up.  So I'm going to put these windows side by side so you can kind of see how
+
+10
+00:52.670 --> 00:53.710
+things compare here.
+
+11
+00:55.040 --> 00:59.060
+So in the GUI, you can click around and move.
+
+12
+00:59.870 --> 01:02.840
+So and then it shows you your files right away.
+
+13
+01:03.740 --> 01:08.330
+When you go to the command line interface, you have to actually, those are individual commands.
+
+14
+01:09.030 --> 01:11.870
+So there's a command called cd, for <i>change directory</i>.
+
+15
+01:13.280 --> 01:15.740
+So if I want to go to my Desktop, I can do that.
+
+16
+01:18.190 --> 01:20.320
+So you see, it didn't list the file immediately.
+
+17
+01:21.410 --> 01:28.120
+There's actually a separate command for that, which is ls, for list.
+
+18
+01:28.720 --> 01:30.040
+There, you'll see the same file there.
+
+19
+01:31.030 --> 01:31.840
+WriteYourOwnRiddle.pdf
+
+20
+01:31.840 --> 01:32.530
+WriteYourOwnRiddle.pdf
+
+21
+01:34.550 --> 01:41.570
+Now, you can also go in there in the GUI, and you know, right click Move to Trash.
+
+22
+01:43.850 --> 01:48.200
+I'm just going to undo that so you can see this will disappear in the command line as well.
+
+23
+01:49.550 --> 01:55.040
+You can type rm, for remove, and the file name and there it goes.
+
+24
+01:58.000 --> 02:07.450
+You can also view files--like the actual content of them--you know, in the menu over here.
+
+25
+02:09.520 --> 02:13.620
+And there's a equivalent command called cat.
+
+26
+02:15.300 --> 02:19.040
+And this is actually in the Documents folder.
+
+27
+02:21.760 --> 02:24.400
+So there you'll see it's the same same file.
+
+28
+02:27.160 --> 02:30.310
+And then here's another similarity.
+
+29
+02:30.370 --> 02:33.450
+You can-- there's metadata about this file.
+
+30
+02:33.490 --> 02:36.720
+It recognizes that it's a Python source file.
+
+31
+02:38.230 --> 02:42.520
+There's a just a file command which gives you some information on what type of file it is.
+
+32
+02:46.270 --> 02:48.340
+So there you can see it's a Python script.
+
+33
+02:50.180 --> 02:54.470
+And there a Python source, so the words are a little different, but it's essentially the same thing.
+
+34
+02:56.180 --> 03:02.270
+So hopefully this summarizes for you that what you can do in the GUI, the graphical interface, you
+
+35
+03:02.270 --> 03:05.570
+can also do in the command line, CLI.

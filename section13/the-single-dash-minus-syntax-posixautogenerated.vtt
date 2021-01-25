@@ -1,0 +1,37 @@
+WEBVTT
+
+0
+00:03.080 --> 00:10.460
+So when I mentioned you should use this POSIX syntax in your script, this is just a single--single letter
+
+1
+00:10.470 --> 00:16.160
+ones. The POSIX stands for Portable Operating System Interface.
+
+2
+00:17.360 --> 00:22.100
+It's basically just a standard for maintaining compatibility between operating systems.
+
+3
+00:22.370 --> 00:27.090
+So it just makes your script more compatible to run on different places.
+
+4
+00:27.350 --> 00:33.200
+So remember how you can run a shell script on Linux and macOS because it's running in your shell.
+
+5
+00:33.860 --> 00:36.230
+So different operating systems will do things differently.
+
+6
+00:36.470 --> 00:39.720
+So you don't really know where your shell script might run.
+
+7
+00:40.700 --> 00:41.990
+So it's just a good idea to make
+
+8
+00:41.990 --> 00:47.150
+it as compatible and resilient as possible by at least adding in those types of flags.

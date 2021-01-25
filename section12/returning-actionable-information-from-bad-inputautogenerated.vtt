@@ -1,0 +1,137 @@
+WEBVTT
+
+0
+00:03.330 --> 00:08.550
+So you as the developer get to--know your script best, so it's up to you to decide what error message
+
+1
+00:08.550 --> 00:10.150
+you get to show to your user.
+
+2
+00:11.460 --> 00:14.580
+So in practice, this can actually be a little more challenging.
+
+3
+00:15.330 --> 00:17.880
+But try to create like a one sentence message.
+
+4
+00:19.020 --> 00:27.870
+So if a user ran it and ran into this problem, they could look at the last piece of output and determine
+
+5
+00:27.870 --> 00:30.900
+what to do to get it to work it.
+
+6
+00:31.140 --> 00:35.760
+And it might seem like a lot of work to do this, but writing good scripts can go a really long way,
+
+7
+00:36.030 --> 00:41.220
+especially if you're learning this for your work or your job, where your other users are going to be
+
+8
+00:41.220 --> 00:42.600
+interacting with your scripts.
+
+9
+00:44.400 --> 00:45.660
+Right now, the script
+
+10
+00:48.870 --> 00:58.800
+will print all the desk--or the folders--all the folders or the directories. If you pass it a file,
+
+11
+01:03.300 --> 01:04.440
+tt will give you this error.
+
+12
+01:07.580 --> 01:10.790
+So let's get rid of this.
+
+13
+01:11.000 --> 01:17.330
+If you're in Command Mode by pressing escape, you can just do 'dd' to get rid of a line and we can
+
+14
+01:17.330 --> 01:19.430
+actually keep this in here if we want to use it later, 
+
+15
+01:19.700 --> 01:24.260
+but we're not actually going to be needing it right now.
+
+16
+01:25.760 --> 01:36.470
+So we'll keep this, but we'll make this message a little bit more actionable. So you can try to give
+
+17
+01:36.470 --> 01:38.690
+them an example of what they can do to fix it.
+
+18
+01:40.250 --> 01:47.180
+So we'll do some command output into a variable here and we'll say '$(dirname..'
+
+19
+01:47.650 --> 01:50.450
+Remember, we used 'basename' last time to get the file name.
+
+20
+01:53.120 --> 01:57.340
+So we know they passed us a file so we can take the--
+
+21
+01:58.190 --> 02:01.680
+[To self] And should my own practice here..'$search_dir'
+
+22
+02:03.470 --> 02:10.700
+So this will say, "give me the directory name of this file that you passed in" and that will give them
+
+23
+02:10.700 --> 02:12.470
+a little bit more actionable input.
+
+24
+02:14.270 --> 02:18.340
+And then this line is just kind of frivolous,
+
+25
+02:19.610 --> 02:20.720
+so delete that.
+
+26
+02:21.710 --> 02:24.140
+We don't really care to do anything if it's not a directory.
+
+27
+02:24.140 --> 02:29.510
+So you can just put that ':' in there--that basically just says "don't do anything".
+
+28
+02:31.250 --> 02:32.830
+So let's quit and run that again.
+
+29
+02:32.840 --> 02:35.740
+And that looks a lot better.
+
+30
+02:36.920 --> 02:39.080
+And what happens if you pass it a file?
+
+31
+02:42.340 --> 02:49.480
+So there was an actionable message that figured out that lowercase.sh was in this folder and then gave
+
+32
+02:49.480 --> 02:51.080
+an example of what you can pass.
+
+33
+02:51.700 --> 02:55.210
+So that worked pretty slick for our directory argument script.

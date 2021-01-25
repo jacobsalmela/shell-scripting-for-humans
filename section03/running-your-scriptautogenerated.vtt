@@ -1,0 +1,101 @@
+WEBVTT
+
+0
+00:02.780 --> 00:08.510
+Well, nice work and making it this far, you get to actually write your script now!  So if you type
+
+1
+00:08.900 --> 00:18.140
+'./' and then the name of your script, 'second_script.sh', it will print things out. And then
+
+2
+00:18.140 --> 00:20.310
+you'll notice a little percent sign here.
+
+3
+00:21.440 --> 00:27.680
+So remember the echo command and the printf command both print text to the screen, but printf does it slightly
+
+4
+00:27.680 --> 00:28.220
+differently.
+
+5
+00:28.520 --> 00:30.320
+It's kind of just good to know that it's out there.
+
+6
+00:31.520 --> 00:33.260
+So if you go edit the script
+
+7
+00:37.670 --> 00:44.360
+and at the very end here, put in a '\n' and that basically creates a new line.
+
+8
+00:48.320 --> 00:55.160
+And you run your script again with './second_script.sh' and there you'll see that percent is gone
+
+9
+00:55.160 --> 00:59.610
+because if you don't have that new line in there, it won't make it.
+
+10
+01:01.790 --> 01:03.480
+And I can illustrate that for you.
+
+11
+01:08.960 --> 01:14.450
+So you could type--let's put it like it was, and then do another printf here.
+
+12
+01:19.940 --> 01:25.190
+'something else'.  So even though these are on two different lines,
+
+13
+01:28.310 --> 01:29.120
+if you run it,
+
+14
+01:30.430 --> 01:35.980
+it's without--if you don't have that '\n' in there, it'll just print it on the same line.
+
+15
+01:37.210 --> 01:41.150
+So that's why you normally will use the echo command to use your text.
+
+16
+01:41.740 --> 01:50.150
+The reason you had to do the './' here is because that's saying what directory your script is in.
+
+17
+01:51.370 --> 01:55.990
+So '.' is another syntax for the current directory.
+
+18
+01:56.960 --> 02:03.110
+You can see what directory director you're in with this pwd command, print-working-directory.
+
+19
+02:04.960 --> 02:05.830
+So there I am.
+
+20
+02:06.730 --> 02:08.070
+So I could actually type this in
+
+21
+02:08.080 --> 02:13.480
+and then do second_script.sh: same thing.
+
+22
+02:13.750 --> 02:17.050
+So '.' is just a shortcut for the current directory that you're in.
+
+23
+02:18.310 --> 02:24.310
+So in the next lecture, you'll ask some debugging options to your script and you'll get some more practice
+
+24
+02:24.310 --> 02:29.820
+making and writing a script in vim and changing the mode to add execution.

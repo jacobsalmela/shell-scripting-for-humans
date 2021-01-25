@@ -1,0 +1,81 @@
+WEBVTT
+
+0
+00:03.270 --> 00:12.880
+You can check with the if statement if the thing you're checking is a file, which is kind of useful.
+
+1
+00:15.000 --> 00:19.800
+So if cmd_output_vars.sh is a file, then
+
+2
+00:22.980 --> 00:25.170
+'echo its a file'
+
+3
+00:28.870 --> 00:35.830
+So if you check that for a directory--remember, '.' is just for the current directory--then nothing happens
+
+4
+00:35.830 --> 00:38.620
+because it's not in the directory, but you can change
+
+5
+00:38.620 --> 00:40.030
+that to a "d"
+
+6
+00:42.010 --> 00:43.660
+Well, that--you should say it's a directory.
+
+7
+00:48.050 --> 00:54.050
+So those are pretty useful for scripting because sometimes you want to do stuff--you might want to
+
+8
+00:54.050 --> 01:04.220
+delete only files and not folders or whatever else it may be.  You can also check if variables are empty
+
+9
+01:04.220 --> 01:04.760
+or not.
+
+10
+01:07.040 --> 01:08.000
+So if I just--
+
+11
+01:10.710 --> 01:13.040
+--empty-- so I could just make up a variable name
+
+12
+01:17.390 --> 01:17.760
+then,
+
+13
+01:23.890 --> 01:25.190
+'echo its an empty var'
+
+14
+01:29.870 --> 01:37.310
+But you can check if it's a--'$SHELL' is a variable, I know that has something in it, then that produces
+
+15
+01:37.310 --> 01:37.630
+nothing.
+
+16
+01:39.540 --> 01:50.630
+And the opposite of that is if it's a non-zero so if there's something in it, then you say it's--it's
+
+17
+01:50.880 --> 01:52.720
+a populated var.
+
+18
+01:59.720 --> 02:03.260
+Same thing, if you did that, then it doesn't work.
+
+19
+02:04.250 --> 02:06.190
+So those are good ones to know for your script.

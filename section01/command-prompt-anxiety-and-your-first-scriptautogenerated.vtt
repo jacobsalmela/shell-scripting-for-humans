@@ -1,0 +1,94 @@
+WEBVTT
+
+0
+00:03.650 --> 00:10.520
+All right, so there can be a lot of anxiety sometimes switching from this nice, pretty interface over
+
+1
+00:10.520 --> 00:16.070
+to this black and white screen with just text, you know, it's really cryptic.
+
+2
+00:16.080 --> 00:21.820
+Maybe it's kind of archaic, but you can actually do all the same things as I showed in the last lecture.
+
+3
+00:22.910 --> 00:27.160
+So I'm going to show you something else to kind of help maybe alleviate some of that anxiety.
+
+4
+00:28.550 --> 00:32.150
+So I'm just going to reset my screen here so this works properly.
+
+5
+00:33.620 --> 00:38.270
+So if you're on a Mac, just try this: type, 'say', space,
+
+6
+00:38.270 --> 00:38.750
+'hello.'
+
+7
+00:39.230 --> 00:39.910
+"Hello."
+
+8
+00:40.820 --> 00:42.650
+And there your computer talks to you.
+
+9
+00:42.740 --> 00:43.730
+How cool is that?
+
+10
+00:44.930 --> 00:48.620
+If you happen to be on Linux, you can try this one: 
+[typing 'curl http:/wttr.in']
+
+11
+00:55.160 --> 01:02.180
+And there you get the nice little weather, nice, pretty graphics, so even though the command line
+
+12
+01:02.180 --> 01:09.770
+might seem like it's, you know, kind of a step backwards, there's still some familiar pieces to it.
+
+13
+01:11.390 --> 01:11.810
+All right.
+
+14
+01:13.010 --> 01:19.400
+So I'm going to clear my screen here and then you're going to start writing your first script.
+
+15
+01:21.050 --> 01:22.340
+So type this: 'echo'
+
+16
+01:23.780 --> 01:25.310
+'this is my first script'
+
+17
+01:27.830 --> 01:30.650
+And then this little greater than sign.
+
+18
+01:33.300 --> 01:40.860
+And name it first_script.sh.  And now that was your first script, it's just a simple one line
+
+19
+01:40.860 --> 01:49.880
+script, but you can run it now by typing 'bash', which is the command that you want to run it with.
+
+20
+01:51.360 --> 01:56.550
+And then 'first_script.sh', and there it prints out your text.
+
+21
+01:57.600 --> 02:03.750
+And that's because you wrote this command here, echo, which is the command, and then whatever text
+
+22
+02:03.750 --> 02:04.320
+follows it.

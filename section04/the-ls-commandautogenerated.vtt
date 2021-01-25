@@ -1,0 +1,65 @@
+WEBVTT
+
+0
+00:02.920 --> 00:08.980
+So you've already seen this ls command quite a bit, can do plus, 'ls -l' to see more files, you know,
+
+1
+00:09.120 --> 00:10.060
+on a single line.
+
+2
+00:11.050 --> 00:12.540
+But here's something new you can do with it.
+
+3
+00:12.550 --> 00:18.340
+You can actually give it a file path and list what's in there, even though that's not the folder that
+
+4
+00:18.340 --> 00:18.770
+you're in.
+
+5
+00:19.360 --> 00:23.610
+So we're in Desktop/ right now, but I listed the /Users folder.
+
+6
+00:24.220 --> 00:27.730
+So this helps you look around at files that maybe you're not actually in.
+
+7
+00:29.500 --> 00:31.120
+You can try the same thing on Linux.
+
+8
+00:31.120 --> 00:37.090
+You can give it 'ls -l /home' because there's no /Users on Linux.
+
+9
+00:39.040 --> 00:45.040
+And when you had to do that dot slash syntax, that was actually giving it a full path.
+
+10
+00:46.810 --> 00:53.590
+So you did second script--dot slash, second script, so that dot was a shortcut.  So you could do
+
+11
+00:53.590 --> 00:58.210
+'ls ..' and that would do the one directory above you.
+
+12
+00:59.230 --> 01:02.610
+So that's basically in my home folder there.
+
+13
+01:03.010 --> 01:08.160
+And if I do /Users/goku there's the same thing.
+
+14
+01:08.680 --> 01:10.720
+So sometimes there's some shortcuts you can use.
+
+15
+01:10.990 --> 01:12.600
+Just something good to know.

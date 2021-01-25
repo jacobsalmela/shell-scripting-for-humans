@@ -1,0 +1,53 @@
+WEBVTT
+
+0
+00:02.280 --> 00:07.140
+All right, so beyond the basic reason of showing whether or not your script to work with these return
+
+1
+00:07.140 --> 00:12.900
+codes here, it helps other programmers because they'll check for it--check for the exit code.
+
+2
+00:13.290 --> 00:19.590
+But if your script starts to grow quite complex, you know, you might have--need all sorts of different
+
+3
+00:19.590 --> 00:20.360
+error codes.
+
+4
+00:21.120 --> 00:30.870
+So like, if a script fails to copy something, it might be the "failed to copy" might be 1.
+
+5
+00:36.160 --> 00:37.030
+But if it--
+
+6
+00:40.180 --> 00:47.200
+if something didn't exist in the first place, that might equal  2.
+
+7
+00:50.650 --> 00:55.180
+So then if somebody has trouble with your script and you have a bunch of these exit codes, you can
+
+8
+00:55.180 --> 01:01.990
+tie those to a specific error message and then, you know-- that's basically your documentation.
+
+9
+01:01.990 --> 01:06.640
+And then if somebody needs help with your script, you can just say, "what was the exit code"?
+
+10
+01:07.690 --> 01:11.950
+And then you go on--search your script for that code and then you can find out right where they're
+
+11
+01:11.950 --> 01:12.790
+having a problem.
+
+12
+01:13.040 --> 01:17.440
+And then if there's a bug to fix, it can be at the right spot.

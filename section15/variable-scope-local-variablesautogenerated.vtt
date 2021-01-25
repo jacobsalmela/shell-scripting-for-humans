@@ -1,0 +1,75 @@
+WEBVTT
+
+0
+00:02.750 --> 00:05.030
+So I showed you about these global variables.
+
+1
+00:05.600 --> 00:06.250
+Let's go.
+
+2
+00:06.590 --> 00:11.980
+Open the file againand now we're going to make some local variables.
+
+3
+00:14.330 --> 00:22.690
+So let's say 'local'--so you can only use this local keyword inside of the inside of a function--and we'll
+
+4
+00:22.700 --> 00:26.150
+make this lower case so we can tell that it's just a local variable.
+
+5
+00:26.750 --> 00:28.690
+Now set that to 2.0.
+
+6
+00:37.750 --> 00:47.790
+And then...
+[Halo-like announcer] vim-pressive! 
+...there we go, we'll use that same thing.
+
+7
+00:54.650 --> 01:02.840
+So now we've got the same version, we're printing the global variable here and the local one, and
+
+8
+01:02.840 --> 01:04.880
+then we're doing the same thing outside the function.
+
+9
+01:06.200 --> 01:07.540
+So let's see how that runs.
+
+10
+01:16.600 --> 01:24.420
+All right, so the global variable is 1.0 and still inside the function is 2.0.
+
+11
+01:25.990 --> 01:29.230
+When we're outside of the function, we can still be this global variable.
+
+12
+01:30.070 --> 01:31.020
+But there's the key:
+
+13
+01:31.630 --> 01:35.170
+If you're outside the function, you can't read of what the local variables are.
+
+14
+01:36.550 --> 01:41.570
+So that's actually kind of nice if you want to reuse--let's look at it quick.
+
+15
+01:43.220 --> 01:48.040
+So if you want to reuse this variable name inside of a different function, you can.
+
+16
+01:49.150 --> 01:53.440
+So that's the that's how you can use variable scope.
+
+17
+01:53.660 --> 01:55.300
+And those are local variables.

@@ -1,0 +1,45 @@
+WEBVTT
+
+0
+00:03.110 --> 00:07.970
+So if you're brand new to Linux or shell scripting, you might be wondering why things have such weird
+
+1
+00:07.970 --> 00:08.610
+names.
+
+2
+00:08.630 --> 00:13.720
+Well, in the early days of computers, things like memory, disk space and even bandwidth were limited.
+
+3
+00:14.360 --> 00:20.600
+So having command names that were very short, precise, it was easier for the computer to execute with
+
+4
+00:20.600 --> 00:22.370
+a limited amount of resources.
+
+5
+00:23.390 --> 00:29.700
+You'll also find some commands that are named after their creators like this awk command.
+
+6
+00:32.000 --> 00:41.600
+It was written by A. V. Aho--"a", B. W. Kernighan--"k," and P.J. Weinberger--"w".
+
+7
+00:42.410 --> 00:49.640
+Other times, the reason they're explained or named weirdly, is because people have sort of a nerdy
+
+8
+00:49.640 --> 00:50.470
+sense of humor.
+
+9
+00:51.320 --> 00:56.990
+So there's commands like touch or finger that can produce some interesting commands if the context is
+
+10
+00:56.990 --> 00:57.340
+right.

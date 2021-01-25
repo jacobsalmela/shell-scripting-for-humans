@@ -1,0 +1,65 @@
+WEBVTT
+
+0
+00:03.460 --> 00:09.730
+So shell scripting is actually very powerful, so...we've just only done some really simple examples here,
+
+1
+00:09.730 --> 00:15.580
+just printing text to the screen, but there's companies out there that use it to install enterprise
+
+2
+00:15.580 --> 00:16.400
+level software.
+
+3
+00:16.900 --> 00:26.740
+So let's take Docker, for instance, its enterprise level software that works with all sorts of big
+
+4
+00:26.740 --> 00:27.520
+companies.
+
+5
+00:30.200 --> 00:35.210
+If you've never seen it before, it's just a popular piece of software, but if you go to get.docker.com
+
+6
+00:35.220 --> 00:39.590
+you'll see that this is just a giant shell script.
+
+7
+00:41.880 --> 00:49.880
+So if you--you could go into your command line and paste this in, you know, paste in these other commands,
+
+8
+00:51.520 --> 00:52.900
+that's a really long script.
+
+9
+00:53.600 --> 00:56.540
+But if you went in and ran all these commands by hand.
+
+10
+00:58.500 --> 01:04.290
+You would end up with Docker installed, but they've done all the work for you, so you just have to
+
+11
+01:04.800 --> 01:08.290
+basically run this script and it installed Docker for you.
+
+12
+01:09.180 --> 01:15.330
+So there's some examples in the lecture notes if you want to look at some other software that uses shell
+
+13
+01:15.330 --> 01:18.510
+scripts to install themselves.
+
+14
+01:18.750 --> 01:24.780
+But the point of the lesson is that, you know, don't underestimate what shell scripts can do because
+
+15
+01:25.880 --> 01:30.440
+there's a big enterprise companies out there that use them to install their software.

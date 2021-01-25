@@ -1,0 +1,65 @@
+WEBVTT
+
+0
+00:02.630 --> 00:06.290
+All right, so the mv command lets you move a file to a new location.
+
+1
+00:06.590 --> 00:13.460
+It's also the main program used to rename files and folders, and a lot of times you'll do that in the
+
+2
+00:13.460 --> 00:14.450
+same command.
+
+3
+00:14.810 --> 00:16.400
+So here's an example.
+
+4
+00:17.540 --> 00:23.870
+Going to /tmp, just make a random file or something.
+
+5
+00:26.480 --> 00:27.430
+See if it's there.
+
+6
+00:27.590 --> 00:28.280
+There it is.
+
+7
+00:29.630 --> 00:31.940
+Now you can say 'mv something
+
+8
+00:34.490 --> 00:40.550
+stuff_and_things',.  See?  Now it's named stuff_and_things.
+
+9
+00:42.810 --> 00:46.270
+And so you can actually do that in the same same command.
+
+10
+00:46.290 --> 00:49.260
+You can move it and rename it to a totally different spot.
+
+11
+00:50.760 --> 00:59.370
+So let's move stuff_and_things to '~/', which is a shorthand for your home folder.
+
+12
+01:01.570 --> 01:10.000
+Say...my_moved_file.  We can go back with 'cd -' to my home folder, because that was the last folder
+
+13
+01:10.000 --> 01:10.690
+that I was in.
+
+14
+01:12.270 --> 01:14.020
+And then there's my moved file.
+
+15
+01:17.890 --> 01:20.700
+And there it has the "something" in it that I originally put in there.

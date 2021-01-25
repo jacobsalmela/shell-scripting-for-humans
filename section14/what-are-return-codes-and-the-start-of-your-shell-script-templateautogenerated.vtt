@@ -1,0 +1,85 @@
+WEBVTT
+
+0
+00:02.840 --> 00:04.740
+Well, you've made it this far in the course.
+
+1
+00:04.760 --> 00:09.770
+So now I'm going to teach you about return codes and then you're going to start writing your own program.
+
+2
+00:11.030 --> 00:16.340
+And this will be basically a template script that you can take anywhere and make whatever sort of program
+
+3
+00:16.340 --> 00:16.780
+you want.
+
+4
+00:17.870 --> 00:22.070
+But I want to teach you about these return codes first, because they serve an important purpose and
+
+5
+00:22.070 --> 00:24.950
+are often underused when people write scripts.
+
+6
+00:27.290 --> 00:34.370
+So if you do a 'ls --help'... remember, this is the thing that gives an error option.
+
+7
+00:37.740 --> 00:45.480
+Then you can type 'echo' this special variable here, 'echo $?' that will give you the
+
+8
+00:45.480 --> 00:48.960
+return code of the last command that ran.
+
+9
+00:50.280 --> 00:56.100
+So here it was one.  That--and in general terms, a zero--
+
+10
+00:56.490 --> 01:00.510
+if it's a 0 return code, it means the program was successful.
+
+11
+01:01.320 --> 01:07.020
+If it was a 1, that means something went wrong or basically anything that's not a zero means something
+
+12
+01:07.020 --> 01:07.550
+went wrong.
+
+13
+01:08.910 --> 01:11.970
+So if you type 'ls'...that one worked.
+
+14
+01:12.450 --> 01:18.140
+Check it again, the return code is 0 because it printed it off properly.
+
+15
+01:21.110 --> 01:27.020
+So basically, you're going to want to try to do the same thing in your script, so if you know something
+
+16
+01:27.020 --> 01:28.700
+might error or..
+
+17
+01:29.910 --> 01:31.150
+not work properly,
+
+18
+01:31.920 --> 01:33.660
+put a little return code in there.
+
+19
+01:34.350 --> 01:41.820
+So then other users--if they check this, they'll know whether or not your command--your script executed
+
+20
+01:41.820 --> 01:42.860
+correctly or not.

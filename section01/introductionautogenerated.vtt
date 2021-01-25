@@ -1,0 +1,69 @@
+WEBVTT
+
+0
+00:03.360 --> 00:08.190
+Shell scripts can be used for all sorts of things, you can use them to manipulate text files, you
+
+1
+00:08.190 --> 00:14.040
+can control services and applications on your computer, you can even deploy your own software using
+
+2
+00:14.040 --> 00:14.700
+a shell script.
+
+3
+00:15.140 --> 00:19.440
+It can be difficult to start learning sometimes because if you've never used Linux before, it's a deep
+
+4
+00:19.440 --> 00:20.190
+learning curve.
+
+5
+00:21.000 --> 00:24.060
+But I designed this course so you can do a lot of hands on typing.
+
+6
+00:24.390 --> 00:27.900
+And then I broke those sections into small chunks.
+
+7
+00:27.900 --> 00:30.560
+So it's really easy to pick up and just do one at a time.
+
+8
+00:30.870 --> 00:36.180
+If you go through this entire course, you'll have 20 shell scripts and a template script that you can
+
+9
+00:36.180 --> 00:43.690
+use to create feature scripts.  Even if you're not familiar with programming Linux or the command line,
+
+10
+00:44.280 --> 00:49.950
+this course will be accessible to you because as long as you have a Mac, you can just follow along
+
+11
+00:49.950 --> 00:53.920
+with all the steps that I do and you'll learn things as you go.
+
+12
+00:54.600 --> 00:58.590
+So the first half of the course is pretty slow and intentionally that way.
+
+13
+00:59.130 --> 01:05.970
+So you can follow along and kind of get used to it and there'll be some repetition of things so you
+
+14
+01:05.970 --> 01:07.980
+can get a firm understanding of it.
+
+15
+01:09.090 --> 01:13.080
+And then the later part of the course you'll have some more advanced things.
+
+16
+01:13.730 --> 01:16.320
+So there's a little bit of something for everybody.

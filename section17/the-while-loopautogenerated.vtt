@@ -1,0 +1,97 @@
+WEBVTT
+
+0
+00:03.140 --> 00:09.290
+So the while--'while' loop is similar to a 'for' loop, but you can close it on a certain conditional.
+
+1
+00:10.610 --> 00:14.900
+So the 'for' loop goes through a set amount of iterations and then is just done.
+
+2
+00:15.140 --> 00:16.900
+The 'while' loop can go on forever.
+
+3
+00:18.090 --> 00:21.540
+So if you typed in something like this:
+
+4
+00:22.870 --> 00:26.320
+it would just loop forever, and that's called an infinite loop.
+
+5
+00:26.560 --> 00:30.040
+So you want to try to avoid those because it's just never going to end.
+
+6
+00:31.490 --> 00:35.520
+So the 'while' loop is good for a couple of different things.
+
+7
+00:35.530 --> 00:38.320
+We used it for those 'getopts', get options.
+
+8
+00:39.580 --> 00:42.910
+It's also good for reading a file line-by-line.
+
+9
+00:43.600 --> 00:52.920
+So you can say 'while read line do'-- go 'echo $line'.  Just put a 'sleep 1' in there so you can see it happening,
+
+10
+00:53.860 --> 00:54.340
+'done'.
+
+11
+00:55.390 --> 00:57.580
+And then you can tell it to use a certain file.
+
+12
+00:58.960 --> 01:01.690
+This file should be on Linux and Mac.
+
+13
+01:03.070 --> 01:09.130
+So there is just going to read through each file [scatting] and then it would just stop when it's done.
+
+14
+01:09.940 --> 01:14.500
+So that would just go until there's no more lines in the file, which is different than a 'for' loop,
+
+15
+01:14.500 --> 01:19.870
+because you could pass in any file of a different length and it would just keep going until the end
+
+16
+01:19.870 --> 01:20.980
+of that file was reached.
+
+17
+01:22.090 --> 01:26.620
+So likewise, in the code that you added in that last script
+
+18
+01:26.620 --> 01:27.100
+we did,
+
+19
+01:31.690 --> 01:33.090
+the parse_args.sh one,
+
+20
+01:41.480 --> 01:49.490
+this was a 'while' loop, but it was only checking these things, so once it got through all of those
+
+21
+01:49.490 --> 01:51.820
+arguments, then there was nothing left to do
+
+22
+01:51.830 --> 01:53.180
+so it was done.
+
+23
+01:55.580 --> 01:58.910
+And then next, I'm going to show you this 'case' statement.

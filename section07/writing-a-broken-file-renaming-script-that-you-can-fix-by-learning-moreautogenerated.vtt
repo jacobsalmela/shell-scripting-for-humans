@@ -1,0 +1,133 @@
+WEBVTT
+
+0
+00:05.860 --> 00:14.480
+Well, I think you have enough skills now to make a file-renaming script, so let's just copy the if.sh
+
+1
+00:15.040 --> 00:22.570
+the script and make one cold rename.sh.  Go edit that...
+
+2
+00:26.620 --> 00:30.780
+and then just comment: this renames files
+
+3
+00:36.550 --> 00:43.690
+So with that line, you can press "dd" here to remove the line if you hit escape and then "dd" it will delete
+
+4
+00:43.960 --> 00:44.620
+the line.
+
+5
+00:45.810 --> 00:54.640
+I think we just want our if/else statement here, so "i" to go back into Insert
+
+6
+00:54.640 --> 01:03.130
+Mode, and let's just make one called files.  We'll saveLookThaB the output of the command, 'ls' 
+
+7
+01:04.570 --> 01:11.890
+The '$files' variable will hold all our files names in there and then we'll see if it is a file,
+
+8
+01:16.030 --> 01:16.600
+then
+
+9
+01:19.990 --> 01:23.740
+we can rename it.
+
+10
+01:25.810 --> 01:30.340
+So I have some image files in here that we can look at.
+
+11
+01:36.800 --> 01:46.040
+So I've got a bunch of these,,,uh..image files, which maybe you'd have from like a digital camera or whatever,
+
+12
+01:48.330 --> 01:49.850
+So let's say
+
+13
+01:52.220 --> 01:58.510
+files--actually, let's just do with just the image files here.
+
+14
+01:59.690 --> 02:00.830
+So 'IMG*'
+
+15
+02:02.080 --> 02:09.400
+So that should list all the files and with image, then we can move those files and rename them:
+
+16
+02:12.190 --> 02:13.420
+'IMG_*'
+
+17
+02:16.540 --> 02:26.080
+And if it's not a file--or not a file, just echo that it's not and we'll close it.  Escape ":wq"
+
+18
+02:27.980 --> 02:34.930
+And let's make a directory, 'mkdir', just so we can see what happens if it does run into a directory.
+
+19
+02:38.360 --> 02:39.230
+"mk-deer"
+
+20
+02:41.170 --> 02:43.600
+Oops, I think that made it in the wrong spot
+
+21
+02:44.110 --> 02:44.530
+'mv deer' into 
+
+22
+02:48.070 --> 02:48.730
+'Pictures/'
+
+23
+02:51.030 --> 02:51.500
+Here we go.
+
+24
+02:53.010 --> 02:54.390
+I'm in the Pictures folder
+
+25
+02:58.060 --> 02:59.460
+'cat' this script here.
+
+26
+03:07.550 --> 03:09.830
+So here's what we had there.
+
+27
+03:12.250 --> 03:17.300
+So let's see what's in the '$files'.
+
+28
+03:17.800 --> 03:20.290
+Perfect, so that lists only your images.
+
+29
+03:23.040 --> 03:29.040
+So our 'mv' statement here is going to say, "move image and add an underscore to it".
+
+30
+03:30.690 --> 03:32.970
+So let's try to run our script.
+
+31
+03:35.670 --> 03:36.600
+"It's not a file."
+
+32
+03:41.670 --> 03:47.070
+Well, this looks like the perfect opportunity to show you about loops. =)

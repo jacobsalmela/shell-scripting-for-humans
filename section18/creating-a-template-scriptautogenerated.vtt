@@ -1,0 +1,271 @@
+WEBVTT
+
+0
+00:02.850 --> 00:10.050
+You have all of your script pieces together--you can combine them to make basically a template that
+
+1
+00:10.050 --> 00:14.190
+use for any script you're going to write in the future, and then you'll have all this stuff set to
+
+2
+00:14.190 --> 00:14.590
+go.
+
+3
+00:15.900 --> 00:23.490
+So we're going to use 'cat' here in the real intended way by 'cat'ing a bunch of files together and then
+
+4
+00:23.490 --> 00:24.950
+making a new file out of them.
+
+5
+00:25.980 --> 00:31.260
+And then from there, we can go and just delete some of the stuff that we don't need.
+
+6
+00:33.420 --> 00:39.470
+So I think we want the version.sh, the usage.sh, the trap.sh
+
+7
+00:42.060 --> 00:48.300
+and then the detect_os.sh, we're just going to put that into a new file.
+
+8
+00:54.110 --> 00:54.960
+So we'll say
+
+9
+00:54.980 --> 00:55.970
+this is a template.
+
+10
+01:04.180 --> 01:07.450
+Delete that... 'version' is good to have,
+
+11
+01:11.950 --> 01:14.430
+but I think with this we can 'echo'  just the version. 
+
+12
+01:24.700 --> 01:29.490
+There, we'll just leave it as an 'echo' statement so you can add stuff later if you want.
+
+13
+01:33.150 --> 01:36.050
+[To self] There's that.  That's just a repeat.
+
+14
+01:38.550 --> 01:39.870
+That's a repeat.
+
+15
+01:42.580 --> 01:43.120
+There you go.
+
+16
+01:43.180 --> 01:44.350
+'usage' is good.
+
+17
+01:49.660 --> 01:52.580
+The expressions for help and version, that's good.
+
+18
+01:55.470 --> 01:57.510
+Oh, and this one should actually go at the top.
+
+19
+02:01.810 --> 02:02.760
+Put that there.
+
+20
+02:08.900 --> 02:10.460
+More duplicate there...
+
+21
+02:13.520 --> 02:14.710
+usage..version...
+
+22
+02:18.040 --> 02:20.350
+Directory and log files we want.
+
+23
+02:27.260 --> 02:30.320
+And then our little OS detection is good to have in here.
+
+24
+02:36.460 --> 02:40.300
+And we'll just say 'do stuff here
+
+25
+02:43.840 --> 02:44.680
+functions, and other code'
+
+26
+02:49.870 --> 02:52.840
+We'll see how good of a editing job I did.
+
+27
+03:02.520 --> 03:02.900
+Sweet.
+
+28
+03:08.750 --> 03:18.130
+Yep , so now there's a nice little template file.  I'll just cat that out so you can see it all and they'll just go
+
+29
+03:18.140 --> 03:19.130
+for each one again.
+
+30
+03:19.880 --> 03:27.620
+So the 'trap' this will if somebody hits Control+C, it sends this signal--signal interrupt and then
+
+31
+03:27.620 --> 03:30.090
+it'll just put this message that it's canceling.
+
+32
+03:30.950 --> 03:32.720
+This is our 'version' function.
+
+33
+03:33.600 --> 03:38.240
+We have a global variable here for version 1.0 and then the version function.
+
+34
+03:38.240 --> 03:39.170
+Just prints it out.
+
+35
+03:40.550 --> 03:41.870
+We have a cleanup function.
+
+36
+03:42.630 --> 03:48.240
+You can pass it a local directory and then it will echo a message that it's running clean up.
+
+37
+03:49.610 --> 03:58.220
+So right here you would put your--uh, what folders you would want to do or move stuff or copy stuff, whatever
+
+38
+03:58.220 --> 03:58.830
+you need to do.
+
+39
+03:59.360 --> 04:00.680
+Here's your usage line.
+
+40
+04:01.160 --> 04:09.110
+So anything you want to show up in the usage of the help, you will put a comment and a slash and then
+
+41
+04:10.040 --> 04:12.170
+you can add stuff to this usage line here.
+
+42
+04:12.170 --> 04:14.540
+And then you can add as many of these lines as you want.
+
+43
+04:16.100 --> 04:18.080
+And that's what this usage function will do:
+
+44
+04:18.080 --> 04:27.080
+it will look for any line, starting with a comment and a slash, and then it will print the message
+
+45
+04:27.800 --> 04:30.860
+that you have written with this 'cut' command.
+
+46
+04:34.880 --> 04:36.080
+These two expressions
+
+47
+04:36.080 --> 04:43.760
+just check for these double dash syntax flags for '--help'
+and 'version', and then it runs those functions.
+
+48
+04:46.200 --> 04:55.440
+This is a variable for getting the directory that the script is running in, and then it makes a read
+
+49
+04:55.440 --> 04:56.370
+only variable.
+
+50
+04:58.280 --> 05:00.950
+And makes a log file with the same name as the script.
+
+51
+05:03.020 --> 05:10.580
+There's three functions here for info, warning, and debugging, so if you're working in some errors
+
+52
+05:10.580 --> 05:16.360
+into your script, you can say 'warn' and then an error message.
+
+53
+05:16.610 --> 05:21.680
+And if you just want to print something out, you can say 'info'
+and this will show it on the screen and
+
+54
+05:21.680 --> 05:23.230
+send it out to the log file.
+
+55
+05:24.260 --> 05:26.770
+And then here's your 'if' statement for your OS.
+
+56
+05:27.560 --> 05:31.000
+So if it's Linux, you can do special Linux stuff there.
+
+57
+05:32.000 --> 05:37.400
+If it's macOS and then if it doesn't find anything, it'll just exit.
+
+58
+05:38.090 --> 05:41.990
+And then you have a 'case' statement here in case you want to set some variables.
+
+59
+05:44.420 --> 05:48.030
+Do specific stuff for Linux, so these two are similar.
+
+60
+05:48.080 --> 05:55.940
+So this one is I usually use is just like a first check and then the next part of the script I'll do
+
+61
+05:55.940 --> 05:56.630
+is I'll check--
+
+62
+05:57.170 --> 06:04.520
+you know, if I need a set, specific variables or certain commands--you can do all that stuff here
+
+63
+06:05.900 --> 06:12.440
+and then then you can do the rest of your code where you can write your own functions, all sorts of
+
+64
+06:12.440 --> 06:12.920
+stuff.
+
+65
+06:13.160 --> 06:14.270
+So that's a pretty good template.
+
+66
+06:14.270 --> 06:17.330
+You have to start writing some scripts in the future.

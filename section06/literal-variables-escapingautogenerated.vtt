@@ -1,0 +1,101 @@
+WEBVTT
+
+0
+00:02.430 --> 00:07.020
+OK, so sometimes it's actually useful to see the actual name of the variable with the output of your
+
+1
+00:07.020 --> 00:07.480
+script.
+
+2
+00:09.270 --> 00:17.780
+Make a new script called 'literal.sh.' "i" for Insert, '#!/bin/bash',
+
+3
+00:20.400 --> 00:22.690
+'this shows a literal variable.'
+
+4
+00:23.990 --> 00:27.420
+And I'm just going to paste this in because I have already done it.
+
+5
+00:29.400 --> 00:30.740
+Escape
+
+6
+00:30.750 --> 00:31.620
+":wq"
+
+7
+00:34.140 --> 00:40.290
+'chmod 755', and './literal.sh' to run it/
+
+8
+00:41.940 --> 00:45.330
+OK, so there's the same script and go back into it.
+
+9
+00:47.190 --> 00:49.380
+So if you want to see the actual variable name
+
+10
+00:52.050 --> 00:53.360
+you can actually do this:
+
+11
+00:53.370 --> 00:55.440
+So if you named your variable
+
+12
+00:55.440 --> 00:55.920
+right,
+
+13
+00:56.460 --> 00:58.230
+this actually works out pretty good.
+
+14
+01:05.940 --> 01:09.840
+So in order to see the variable name, you put a backslash here.
+
+15
+01:11.060 --> 01:21.560
+So this will tell your shell to ignore the special power that this dollar sign has and just print the
+
+16
+01:21.680 --> 01:23.160
+character: dollar sign.
+
+17
+01:23.210 --> 01:26.570
+So Escape with ":wq" and then run it again.
+
+18
+01:26.990 --> 01:28.510
+So who is in the sneaking suit?
+
+19
+01:28.520 --> 01:29.260
+Solid snake.
+
+20
+01:30.350 --> 01:37.270
+So they're printed are actual variable name instead of above where if we didn't have them backslash
+
+21
+01:37.340 --> 01:41.240
+there, it printed out what was in it--or we just had text there.
+
+22
+01:42.620 --> 01:48.980
+But since I named my variable basically the same thing, it's kind of easy to see the variable name.
+
+23
+01:49.640 --> 01:56.540
+So that that backslash character is also a special character--basically just tells the shell to ignore
+
+24
+01:56.540 --> 02:01.610
+the next character's ability if it has one, and instead print that character.

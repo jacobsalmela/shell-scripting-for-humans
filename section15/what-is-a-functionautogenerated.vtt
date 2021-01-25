@@ -1,0 +1,129 @@
+WEBVTT
+
+0
+00:02.480 --> 00:07.100
+All right, so what is a function?  A function is just a piece of reusable code.
+
+1
+00:07.670 --> 00:12.020
+So right now, your script--none of the scripts you've written so far have any functions;
+
+2
+00:12.800 --> 00:14.780
+it's basically just a whole bunch of commands.
+
+3
+00:15.950 --> 00:18.530
+So let's look at your 'cd' script:
+
+4
+00:21.330 --> 00:27.630
+So this is just one line and this would actually make a really nice function because it's just doing
+
+5
+00:27.630 --> 00:28.670
+two simple things.
+
+6
+00:28.680 --> 00:36.570
+It's going to 'cd' to a directory and then list what's in it. So you can actually do some cool here.
+
+7
+00:37.240 --> 00:40.620
+So if you do, 'vim .bash_profile'
+
+8
+00:44.280 --> 00:52.570
+So this command--or this file might not exist yet, and that's OK.
+
+9
+00:54.390 --> 00:56.070
+So we're going to paste this in...
+
+10
+00:59.700 --> 01:05.490
+and then to make a function, you give it a name and then two parentheses.
+
+11
+01:12.590 --> 01:14.540
+and then a bracket,
+
+12
+01:17.180 --> 01:18.380
+and the closing bracket.
+
+13
+01:21.860 --> 01:24.980
+After you type this command: 'source' that file
+
+14
+01:26.180 --> 01:27.800
+Now, you can just type 'cd'
+
+15
+01:30.520 --> 01:39.550
+You see?  So you're you basically overrode the the existing 'cd' command and made it your own with that.
+
+16
+01:40.330 --> 01:51.310
+If you're on Linux, um, you can--you might be able to add it to this command (file), '.bashrc'.  [To self] That doesn't exist either.
+
+17
+01:52.600 --> 01:57.490
+But this .bash_profile, you can basically put whatever functions you want in there.
+
+18
+01:58.270 --> 02:03.640
+And then when you log in--this is essentially the same thing as logging in.
+
+19
+02:04.060 --> 02:05.620
+It just reads this file.
+
+20
+02:06.810 --> 02:13.290
+So now, any time you use the 'cd' command, it'll list what's in there for you.
+
+21
+02:15.060 --> 02:17.070
+So now you don't even really need that script:
+
+22
+02:17.100 --> 02:19.800
+you don't have to go './cd /tmp'
+
+23
+02:26.290 --> 02:28.160
+So let's look at that.
+
+24
+02:32.030 --> 02:32.310
+There.
+
+25
+02:32.330 --> 02:39.290
+So this is just how you define a function: you have--you give it a name, the parentheses, and then
+
+26
+02:39.290 --> 02:42.360
+whatever code you want to run inside these brackets here.
+
+27
+02:42.860 --> 02:45.260
+So this could be, you know, just these two commands.
+
+28
+02:45.260 --> 02:46.850
+It could be a hundred commands.
+
+29
+02:47.720 --> 02:51.680
+It's usually better just to keep them keep functions relatively short and
+
+30
+02:53.730 --> 02:56.520
+simple so you can follow them.  But,
+
+31
+02:57.440 --> 02:58.460
+that works just the same.

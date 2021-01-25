@@ -1,0 +1,37 @@
+WEBVTT
+
+0
+00:01.800 --> 00:06.300
+All right, well, so far in this course, you've made scripts that are very short and don't really
+
+1
+00:06.300 --> 00:07.260
+do a whole lot.
+
+2
+00:07.620 --> 00:09.470
+So that's going to start to change now.
+
+3
+00:10.410 --> 00:12.090
+We've already learned quite a few commands.
+
+4
+00:12.090 --> 00:13.980
+You can navigate the file system.
+
+5
+00:14.580 --> 00:17.520
+You can create scripts and modify the permissions.
+
+6
+00:17.520 --> 00:20.040
+You also know how to create and expand variables.
+
+7
+00:21.270 --> 00:23.940
+And soon you'll start making a script that will do something useful.
+
+8
+00:24.930 --> 00:28.440
+So let me show you how to use some if statements in the next lecture.

@@ -1,0 +1,85 @@
+WEBVTT
+
+0
+00:03.500 --> 00:10.580
+All right, so let's try another little trick with a pipe.  I'll go over to my documents folder.
+
+1
+00:13.730 --> 00:18.400
+I'm going to use the 'touch' command to just make a little fake file here.
+
+2
+00:20.450 --> 00:26.000
+I'm going to do 'filename\ with\ spaces.pdf'
+
+3
+00:28.310 --> 00:34.250
+So there that showed up there, just the empty file, but you'll notice that I had to put these back
+
+4
+00:34.250 --> 00:38.660
+slashes in there because the space is actually a special character.
+
+5
+00:39.620 --> 00:46.130
+So that's--you'll see a lot of Linux file names without spaces because of that very reason.
+
+6
+00:47.030 --> 00:53.900
+So if we had a big folder with a bunch of these file names or spaces, you might want to go in and try
+
+7
+00:53.900 --> 00:56.530
+to rename them all with underscores instead.
+
+8
+00:58.100 --> 01:00.320
+So you can do that.
+
+9
+01:03.160 --> 01:05.650
+So we're just going to say 'echo filename\ with\ spaces.pdf'.
+
+10
+01:06.820 --> 01:07.480
+There it is.
+
+11
+01:07.690 --> 01:09.250
+But if you pipe it to 'sed'.
+
+12
+01:13.770 --> 01:21.210
+You can do this little trick, so you'd say "search for any spaces" and then what you want to replace it
+
+13
+01:21.210 --> 01:23.040
+which is a slash
+
+14
+01:24.240 --> 01:25.020
+or an underscore.
+
+15
+01:25.670 --> 01:30.270
+So what's what's in between each of these slashes is what you're searching for, what you're going to
+
+16
+01:30.270 --> 01:37.020
+replace it with, and then if you do a 'g' that just says globally--so do it for every space that you
+
+17
+01:37.020 --> 01:37.530
+find.
+
+18
+01:39.980 --> 01:40.550
+There you go.
+
+19
+01:40.700 --> 01:42.050
+Now it's got underscores
+
+20
+01:43.100 --> 01:48.370
+You could rename all those files and just rename them with underscores.

@@ -1,0 +1,61 @@
+WEBVTT
+
+0
+00:02.440 --> 00:08.020
+Much of shell scripting is just learning what commands are available for you to use, and you already
+
+1
+00:08.020 --> 00:08.860
+know quite a few.
+
+2
+00:09.310 --> 00:14.830
+I haven't taught you this one directly, but 'clear' clears the screen and each command is essentially
+
+3
+00:14.830 --> 00:15.710
+an application.
+
+4
+00:15.910 --> 00:22.780
+So these are just all really small programs that do one thing really well, which is sort of the
+
+5
+00:22.780 --> 00:24.000
+Linux/Unix philosophy.
+
+6
+00:24.610 --> 00:31.270
+It's just small programs that do one thing really well and then you can tie them all together to do
+
+7
+00:31.270 --> 00:32.680
+something different.
+
+8
+00:32.920 --> 00:40.000
+So, you know, the clear command, you know bash, you know vim, you know ls.
+
+9
+00:40.880 --> 00:48.910
+cd, rm.  You know, chmod to change mode,
+
+10
+00:51.970 --> 00:55.420
+pwd and, you know, the set command.
+
+11
+00:56.230 --> 01:00.070
+So you've already learned quite a few commands just from learning how to write a script.
+
+12
+01:00.430 --> 01:05.020
+As we continue on through the lectures, you're going to learn more and more commands and you'll add
+
+13
+01:05.020 --> 01:11.050
+those to your knowledge and then you just start plugging the commands together to make a script to do
+
+14
+01:11.050 --> 01:11.830
+what you want to do.

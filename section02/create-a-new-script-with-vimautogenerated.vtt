@@ -1,0 +1,106 @@
+WEBVTT
+
+0
+00:02.950 --> 00:09.370
+So you already wrote a shell script and ran it, but the method by which you did that was not really
+
+1
+00:09.370 --> 00:10.330
+going to scale that well.
+
+2
+00:10.330 --> 00:15.700
+You could basically write one line at a time and just have a one line script.
+
+3
+00:15.710 --> 00:19.300
+But most likely your scripts will want to be a lot longer.
+
+4
+00:20.650 --> 00:24.040
+So there's actually a built in text editor that can help you do that.
+
+5
+00:24.240 --> 00:26.020
+It's called...Vim.
+[dramatic music]
+
+6
+00:27.820 --> 00:31.870
+Might be thinking maybe you could just write your scripts in like Microsoft Word or something.
+
+7
+00:32.080 --> 00:36.970
+But if you do that, there's just--those programs are word processors.
+
+8
+00:36.970 --> 00:42.490
+so they have a bunch of formatting and, you know, hyperlinks and all sorts of other stuff that your
+
+9
+00:42.490 --> 00:48.190
+shell is not going to understand you when you're running shell scripts, you just want just text and
+
+10
+00:48.190 --> 00:48.610
+that's it.
+
+11
+00:50.080 --> 00:51.370
+So vim is really good at that.
+
+12
+00:51.370 --> 00:55.540
+It's just text and editing.
+
+13
+00:55.690 --> 01:00.220
+Editing these scripts on the command line is very fast and efficient.
+
+14
+01:00.220 --> 01:03.820
+You can basically write a line of code, close the editor and test your change.
+
+15
+01:04.360 --> 01:10.960
+If you're still not convinced, you'll find some cool features that are missing from Microsoft Word.
+
+16
+01:11.920 --> 01:14.050
+You know, you can select multiple lines.
+
+17
+01:14.050 --> 01:17.800
+You can do a search and replace with a few keystrokes.
+
+18
+01:17.830 --> 01:20.170
+You can get syntax highlighting.
+
+19
+01:20.860 --> 01:23.460
+There's custom themes, all sorts of stuff.
+
+20
+01:24.580 --> 01:27.040
+So let's see how to use it.
+
+21
+01:29.590 --> 01:40.780
+So just type 'vim' and then 'second_script.sh' since we already made one, so this will be your second one.
+
+22
+01:41.030 --> 01:48.140
+So all I want you to do for this, this lecture is just type 'vim second_script.sh' and then hit enter and
+
+23
+01:48.160 --> 01:49.470
+don't press anything else yet.
+
+24
+01:50.260 --> 01:54.550
+So this is what it's going to look like when you open your file for editing.
+
+25
+01:56.440 --> 01:59.410
+And then in the next lecture, I'm going to show you how to actually write something.

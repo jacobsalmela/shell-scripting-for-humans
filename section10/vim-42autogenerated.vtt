@@ -1,0 +1,33 @@
+WEBVTT
+
+0
+00:03.730 --> 00:08.530
+All right, well, you made it to the lecture where lots of fun things are going to happen, but in
+
+1
+00:08.530 --> 00:12.670
+exchange for some of this fun, you'll have to think a little bit because I've added some quizzes to
+
+2
+00:12.670 --> 00:16.050
+the section based on the previous lectures.
+
+3
+00:16.810 --> 00:22.260
+So let's start off with 'vim' and Insert Mode and Command Mode.
+
+4
+00:23.230 --> 00:25.000
+So if I just vim a file.
+
+5
+00:29.310 --> 00:39.590
+And then I'm in Command Mode right now, so I can do ":help" and get help this way in vim, but type ":help"
+
+6
+00:39.600 --> 00:40.390
+42"
+
+7
+00:43.320 --> 00:47.220
+And then this will bring up something interesting you can look at and read about.

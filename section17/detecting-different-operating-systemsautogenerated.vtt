@@ -1,0 +1,121 @@
+WEBVTT
+
+0
+00:03.880 --> 00:06.010
+So make one called
+
+1
+00:09.160 --> 00:09.820
+'detect_os.sh'
+
+2
+00:24.870 --> 00:29.070
+So to start, I usually do this big 'if' statement
+
+3
+00:32.280 --> 00:36.460
+'$OSTYPE', it's like a built in variable, so
+
+4
+00:43.140 --> 00:45.170
+it's easy to test for Linux first.
+
+5
+00:52.260 --> 00:54.820
+And then the '*' there just checks for different types
+
+6
+00:57.550 --> 00:57.960
+'then'...
+
+7
+01:01.360 --> 01:02.080
+'echo Linux detected...'
+
+8
+01:08.310 --> 01:10.330
+'yy' to copy that line
+
+9
+01:13.480 --> 01:17.380
+'p' to paste it, and we need a couple of these.
+
+10
+01:23.570 --> 01:27.450
+And then for the multiples, you can do 'elif', instead of 'else'
+
+11
+01:45.950 --> 01:47.690
+So there I'm using an exit code since
+
+12
+01:48.870 --> 01:55.640
+I don't know what the OS is, and actually, let's 'yy' that and
+
+13
+02:05.650 --> 02:06.120
+So darwin
+
+14
+02:08.980 --> 02:11.740
+macOS
+
+15
+02:16.690 --> 02:17.550
+cygwin
+
+16
+02:19.820 --> 02:21.550
+is basically...
+
+17
+02:24.120 --> 02:25.050
+POSIX.
+
+18
+03:09.440 --> 03:11.450
+All right, so there's a little 'if' statement.
+
+19
+03:21.510 --> 03:24.840
+And there you see I'm on a Mac so that detected that properly.
+
+20
+03:26.670 --> 03:27.780
+So that's the first part;
+
+21
+03:27.790 --> 03:34.680
+so I'll usually put that at the start of my script and then it will 'exit' if it's doesn't detect what
+
+22
+03:34.680 --> 03:35.160
+it is.
+
+23
+03:37.020 --> 03:40.200
+And then you can also add this 'case' statement
+
+24
+03:43.230 --> 03:43.650
+So you do....
+
+25
+03:47.030 --> 03:48.080
+'case $OSTYPE in'
+
+26
+03:51.110 --> 03:53.370
+then we put the same flavors in here.
+
+27
+04:22.940 --> 04:30.430
+So here you could put, you know, special variables that you want for each type of system if you're
+
+28
+04:30.440 --> 04:32.530
+trying to make it as compatible as possible.
+
+29
+05:12.340 --> 05:18.510
+So there's a nice little script you can use to detect an OS and then do something different with it.

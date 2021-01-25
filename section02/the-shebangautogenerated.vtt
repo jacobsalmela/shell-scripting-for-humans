@@ -1,0 +1,63 @@
+WEBVTT
+
+0
+00:03.100 --> 00:09.680
+So that first line of text that you just wrote is called The Shebang
+[inspiring music and signing] sha-a-a-a-bang!
+
+1
+00:13.030 --> 00:19.350
+basically when you run your script before we were calling it, you know, we've said 'bash first_script.sh',
+
+2
+00:19.490 --> 00:25.840
+So when you typed this line, it tells you that you don't have to type that bash command anymore
+
+3
+00:25.840 --> 00:27.440
+because you're defining it right here.
+
+4
+00:27.470 --> 00:33.700
+You want to say--you're saying, I want to use this program /bin/bash, to run this script.
+
+5
+00:34.450 --> 00:37.120
+So that's why you should always have this as your very first line.
+
+6
+00:39.160 --> 00:50.380
+And the Shebang is kind of a weird name, but it comes from this hash sign, ha-SH, and then the
+
+7
+00:50.380 --> 00:53.770
+exclamation point is called a bang in the Linux world.
+
+8
+00:54.460 --> 01:07.040
+So "SH-bang", and then "bin-bash".  It might also come from the default shell, but before bash was just sh.
+
+9
+01:08.320 --> 01:09.430
+So shebang.
+
+10
+01:11.650 --> 01:17.380
+So it's just kind of a fun thing to learn about, but you can put other stuff in here.
+
+11
+01:17.380 --> 01:24.790
+So if we wanted to run our write our scripts in sh., we could, but we'll be writing all of ours
+
+12
+01:24.790 --> 01:31.780
+in bash since bash is used all over the place in Linux and everywhere else.  The only thing you need
+
+13
+01:31.780 --> 01:38.440
+to remember from this lecture is that this is called the Shebang and it should be the first line in
+
+14
+01:38.440 --> 01:42.520
+your--any script that you write.
+[musical]: sha-a-a-bang!

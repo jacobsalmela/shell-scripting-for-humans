@@ -1,0 +1,120 @@
+WEBVTT
+
+0
+00:02.640 --> 00:08.540
+OK, you're almost there, you get to make your script executable and then you're going to run it.
+
+1
+00:10.110 --> 00:21.210
+So just type this 'chmod 755', 
+[quircky music/singing ]chmod seven five five!
+and the name of your script.
+
+2
+00:22.140 --> 00:24.150
+'second_script'.sh
+
+3
+00:25.980 --> 00:31.560
+And press enter.  Now hit the up arrow type or type 'ls -l' again.
+
+4
+00:33.460 --> 00:41.200
+And now you'll see the permissions on our file have changed, so before it was read/write, read, read,
+
+5
+00:42.460 --> 00:49.360
+and now let's read/write/execute, read/execute, read/execute. This might seem kind of weird, but basically
+
+6
+00:49.360 --> 00:56.650
+now that now that this has the executable permission on it, you can just type the name of your script
+
+7
+00:56.950 --> 00:58.000
+and it will run.
+
+8
+00:58.870 --> 01:01.300
+So what did that chmod command actually do?
+
+9
+01:02.890 --> 01:04.690
+It changed the mode.
+
+10
+01:04.810 --> 01:08.720
+That's what the command stands for, change mode.
+
+11
+01:09.190 --> 01:10.630
+And then we gave it this number.
+
+12
+01:11.110 --> 01:15.870
+And these numbers actually relate to what these letters turn out to be.
+
+13
+01:17.500 --> 01:24.760
+So most most Linux users will be able to actually look at this number and see what the permissions are
+
+14
+01:24.760 --> 01:25.930
+just based on this number.
+
+15
+01:26.650 --> 01:28.810
+And maybe you'll get to that point, too.
+
+16
+01:29.890 --> 01:31.660
+But you don't have to know that for right now.
+
+17
+01:32.080 --> 01:36.700
+Just remember that this is the command you'll want to run for an any shell script
+
+18
+01:36.700 --> 01:40.030
+you make: 'chmod 755' and then your script name.
+
+19
+01:40.480 --> 01:46.610
+So here's a summary of basically what you need to do to create any script.
+(to self) reset..
+
+20
+01:47.860 --> 01:50.710
+You need to type 'vim yourscript.sh ',
+
+21
+01:51.310 --> 01:57.580
+type "i" for Insert Mode, write some code,
+
+22
+02:01.440 --> 02:09.620
+escape key, ":wq"--you can actually combine those two, write, and quit at the same time and then
+
+23
+02:09.630 --> 02:10.220
+'chmod 755
+
+24
+02:12.930 --> 02:14.730
+yourscript.sh'
+
+25
+02:16.290 --> 02:21.030
+So that's what you need to do in order to make your script executable and ready to go.
+
+26
+02:23.100 --> 02:28.740
+So in the next lecture, I'm going to give you a quick overview of Linux file permissions so you can
+
+27
+02:28.740 --> 02:34.220
+actually understand why--or how this number relates to the file permissions.
+
+28
+02:34.500 --> 02:36.690
+And then after that, you'll finally get to run your script.

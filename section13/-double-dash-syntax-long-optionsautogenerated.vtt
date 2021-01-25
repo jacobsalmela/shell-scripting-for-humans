@@ -1,0 +1,77 @@
+WEBVTT
+
+0
+00:02.780 --> 00:11.810
+So there's a long style options--flags, and these are really helpful for humans, especially if you're
+
+1
+00:11.810 --> 00:13.490
+writing some complex scripts.
+
+2
+00:15.020 --> 00:19.100
+So you might not be familiar with what every command does.
+
+3
+00:23.270 --> 00:26.480
+So like, [chuckles] who's going to remember what all those do?
+
+4
+00:26.840 --> 00:28.090
+Probably not too many people.
+
+5
+00:29.060 --> 00:37.940
+But if you look at 'rsync' command: look at all these different options, you can do. So this help page is
+
+6
+00:37.940 --> 00:39.050
+a lot more helpful.
+
+7
+00:39.950 --> 00:44.270
+And it has these "--style-things".
+
+8
+00:44.870 --> 00:51.290
+And some of them, you can just find out what it might do based on the word: so --recursive.
+
+9
+00:52.280 --> 00:54.650
+It tells you here that it's going to recursive directories.
+
+10
+00:54.650 --> 01:02.210
+But, you know, if you just saw this option in a script, you might know that is trying to go into
+
+11
+01:02.210 --> 01:07.070
+all the directories as opposed to if you were just using this '-r' .
+
+12
+01:15.570 --> 01:17.910
+Yeah, so even like this one, '--human-readable'.
+
+13
+01:18.480 --> 01:24.120
+There you go, if you just had '-h' and someone who's unfamiliar with this 'rsync'  command, they
+
+14
+01:24.120 --> 01:28.140
+might not know what it is, but "output numbers in human readable format".
+
+15
+01:29.430 --> 01:33.990
+So it's it's nice to have these, too; especially for writing scripts.
+
+16
+01:34.470 --> 01:40.020
+And sometimes these 'rsync'; commands will have a whole bunch of different flags set to them to do
+
+17
+01:40.020 --> 01:40.680
+what you want.
+
+18
+01:41.070 --> 01:45.510
+So it's nice to just nice in your script to have the option to do both.

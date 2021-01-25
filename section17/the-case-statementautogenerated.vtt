@@ -1,0 +1,53 @@
+WEBVTT
+
+0
+00:03.760 --> 00:08.620
+OK, so I'm going to show you about this 'case' statement here, this says:
+
+1
+00:10.540 --> 00:13.090
+'case' and then a variable name.
+
+2
+00:13.780 --> 00:18.700
+So in this case, it's going to be 'opt', which is just going to loop through all these.
+
+3
+00:20.770 --> 00:28.870
+So if it's a 'b', it's going to run this and then you close it out by saying there's nothing else to
+
+4
+00:28.870 --> 00:31.570
+run here by using two semicolons.
+
+5
+00:31.570 --> 00:37.690
+And you could add multiple lines of code here, but since there's only one, it's just easier to read
+
+6
+00:37.690 --> 00:38.410
+with just one.
+
+7
+00:41.330 --> 00:47.630
+And if it's an 'e'  it's going to do this function and then the '*' here, as I mentioned, will just be
+
+8
+00:47.630 --> 00:49.780
+a default if it didn't find a match.
+
+9
+00:51.470 --> 00:57.380
+And then in our case, it's going to use the--print this 'usage' function to show our helpline.
+
+10
+00:59.870 --> 01:05.690
+So the key statement is useful if you want to do X, Y or Z, depending on what if you have a whole
+
+11
+01:05.690 --> 01:11.150
+bunch of different things you want to do something different on, you can loop through them and then
+
+12
+01:11.150 --> 01:16.130
+do a little 'case' statement and then have a default for if something doesn't match.

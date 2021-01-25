@@ -1,0 +1,50 @@
+WEBVTT
+
+0
+00:01.870 --> 00:16.090
+STDIN and STDOUT. Two terms that you'll come to know. [musical singing] "Standard in and standard out" 
+it's just
+
+1
+00:16.090 --> 00:20.530
+a term for the input to a command and the output a command generates.
+
+2
+00:21.160 --> 00:23.390
+But this is how the pipes work.
+
+3
+00:24.640 --> 00:37.600
+So in this Dracula example, the STDOUT was this--was 'alucard' and then you pipe it to the STDIN
+
+4
+00:37.600 --> 00:39.790
+of the 'rev' command.
+
+5
+00:40.030 --> 00:45.550
+So basically this pipe character is temporarily holding the STDOUT so we can use it with this
+
+6
+00:46.160 --> 00:47.230
+command that follows.
+
+7
+00:48.490 --> 00:52.630
+So normally STDIN for this 'rev' command was a file name.
+
+8
+00:54.520 --> 00:58.210
+So you can't actually just pass it any sort of text you want.
+
+9
+00:58.450 --> 01:04.660
+You have to have that pipe character there so you can't just make up some text and go in to 'rev'.
+
+10
+01:06.370 --> 01:11.080
+It just won't work because it'll think you're trying to run this command.
+
+11
+01:12.460 --> 01:16.750
+And then in the next lecture, I'm going to show you some commands that work well with pipes.

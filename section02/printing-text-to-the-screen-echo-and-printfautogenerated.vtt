@@ -1,0 +1,53 @@
+WEBVTT
+
+0
+00:03.710 --> 00:11.750
+All right, so you wrote your shebang, you wrote your first comment, and now you're going to write
+
+1
+00:11.750 --> 00:17.210
+two lines of code that will print text to the screen in a different way.
+
+2
+00:18.740 --> 00:21.000
+So the first one you've already done on the command line.
+
+3
+00:22.760 --> 00:24.440
+So just do 'echo text
+
+4
+00:26.320 --> 00:31.270
+'text from an echo command', and then there's another one you can use, printf.
+
+5
+00:33.710 --> 00:40.730
+I'm just going to put this in quotes so I can show you something.  'text from a printf command'
+
+6
+00:42.790 --> 00:49.270
+Both of these commands can be used to print text to the screen, but this one works a little bit
+
+7
+00:49.270 --> 00:49.780
+differently.
+
+8
+00:50.020 --> 00:55.720
+So most of the time you're going to use echo, but I'm just showing you to so you can have them in your
+
+9
+00:55.780 --> 00:56.560
+repertoire.
+
+10
+00:56.920 --> 01:02.260
+So in the next lecture, you're going to save your file because as you notice, there's no file menu
+
+11
+01:02.260 --> 01:04.480
+to do File > Save as...
+
+12
+01:05.770 --> 01:07.750
+So I'll show you how to do that in the next lecture.

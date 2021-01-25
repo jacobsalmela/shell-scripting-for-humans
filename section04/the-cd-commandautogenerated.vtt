@@ -1,0 +1,45 @@
+WEBVTT
+
+0
+00:02.650 --> 00:08.610
+So the cd command lets you move to different directories and I showed you how you could do 'ls ..'
+
+1
+00:08.610 --> 00:14.560
+to list the directory above you, you can also do that same thing with cd.
+
+2
+00:15.430 --> 00:17.060
+So now I'm in my home folder.
+
+3
+00:19.900 --> 00:27.100
+There's those same files can also use cd to jump to any directory on the system if you know the path
+
+4
+00:27.100 --> 00:27.500
+to it.
+
+5
+00:28.660 --> 00:29.170
+So.
+
+6
+00:30.940 --> 00:36.220
+Most machines will have this /tmp folder, you can just jump right to it, even though it's not anywhere
+
+7
+00:36.430 --> 00:40.090
+near where you are--you can do the same thing on Linux.
+
+8
+00:41.440 --> 00:44.920
+And then if you do 'ls' here, there's just a bunch of temp files
+
+9
+00:49.420 --> 00:55.750
+and then one other cool trick you can do a cd is you can do a 'cd -' and then I'll take you back to
+
+10
+00:55.750 --> 00:57.700
+the directory that you were last in.

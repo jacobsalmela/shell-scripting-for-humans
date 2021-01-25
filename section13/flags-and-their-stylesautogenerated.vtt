@@ -1,0 +1,49 @@
+WEBVTT
+
+0
+00:03.080 --> 00:09.560
+So now that you learned about commands and arguments, let's talk about flags and their different styles.
+
+1
+00:10.430 --> 00:19.550
+So there's the shorthand, which is like just minus and then a letter, this is called POSIX.
+
+2
+00:21.610 --> 00:30.490
+And then there's a '--long-style', which is usually a full word that you can understand, so
+
+3
+00:30.490 --> 00:41.440
+either types of these flags or fine, so like 'git'--'git's help option has, you know, --no-pager options,
+
+4
+00:41.440 --> 00:43.640
+--no-replace-objects there.
+
+5
+00:44.140 --> 00:47.350
+Those are all human readable words that you can use.
+
+6
+00:48.250 --> 00:51.820
+But then they've also got these shorter, POSIX-style ones.
+
+7
+00:51.940 --> 00:56.050
+So you just do you just pass out a letter and then something else.
+
+8
+00:56.080 --> 01:02.340
+Sometimes it's just only a letter or in this example, you can use either the -p or the --paginate.
+
+9
+01:04.960 --> 01:11.020
+So it's--it's usually up to the developer how to implement these flags, but at a bare minimum, you
+
+10
+01:11.020 --> 01:13.560
+should do you should at least do the lowercase letters.
+
+11
+01:14.740 --> 01:20.170
+And then a lot of programs, newer programs these days will have both options available.

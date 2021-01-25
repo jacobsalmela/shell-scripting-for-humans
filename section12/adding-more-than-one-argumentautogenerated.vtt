@@ -1,0 +1,49 @@
+WEBVTT
+
+0
+00:05.010 --> 00:06.680
+So you could do the same thing here.
+
+1
+00:11.960 --> 00:12.890
+'second_arg=$2'.
+
+2
+00:20.690 --> 00:22.430
+But we'll just print that out: 'echo...' [typing]
+
+3
+00:31.130 --> 00:34.580
+So /Users/goku and just whatever.
+
+4
+00:36.370 --> 00:38.260
+So there it printed out the second argument.
+
+5
+00:39.400 --> 00:40.420
+So even though it was
+
+6
+00:41.390 --> 00:47.660
+second, we--the second argument--we just grabbed it and listed it first, and then it went through
+
+7
+00:47.660 --> 00:48.790
+all the other stuff.
+
+8
+00:49.520 --> 00:51.380
+So I suggest using that trick.
+
+9
+00:53.680 --> 00:59.440
+Using these named variables, basically, any time you find yourself using this number one, two, three,
+
+10
+00:59.440 --> 01:00.160
+four, whatever.
+
+11
+01:01.320 --> 01:03.540
+Always name them, because then it's easier to keep track of them.

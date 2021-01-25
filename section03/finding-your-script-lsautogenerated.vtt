@@ -1,0 +1,82 @@
+WEBVTT
+
+0
+00:02.690 --> 00:06.440
+So you ran your first script by calling 'bash' and then 'first_script.sh'.
+
+1
+00:06.800 --> 00:15.290
+So this explicitly uses the bash command to run your script, but since you defined it in your second
+
+2
+00:15.290 --> 00:15.680
+script.
+
+3
+00:16.480 --> 00:22.400
+You're already telling it to use bash so you can actually just call the filename itself and your script
+
+4
+00:22.400 --> 00:27.970
+will run because you predefined that it will use bash here.   But where is your script?
+
+5
+00:28.180 --> 00:31.120
+You need to use a new command to actually see where your script is.
+
+6
+00:31.360 --> 00:32.660
+That's called 'ls'.
+
+7
+00:34.200 --> 00:36.850
+So there you see, we have our first and second ones.
+
+8
+00:36.850 --> 00:40.810
+And this is basically the same thing as--remember from the earlier lectures;
+
+9
+00:40.820 --> 00:44.680
+this is the same as doing--opening the Finder window and seeing that.
+
+10
+00:48.540 --> 00:50.670
+So I'm going to split my screen there so you can see.
+
+11
+00:53.390 --> 00:59.270
+(to self) desktop..
+So there's my first and second script, so there's two important things that you need to learn
+
+12
+00:59.300 --> 01:05.120
+before you can actually run your script, and it probably seems like there's a lot of you know, you
+
+13
+01:05.120 --> 01:07.460
+have to keep learning this, to learn this, to do that.
+
+14
+01:07.730 --> 01:10.450
+And you haven't really actually written a script yet.
+
+15
+01:11.180 --> 01:15.320
+But these are some foundational things that will make sense,
+
+16
+01:15.320 --> 01:19.010
+and then they will--you'll be able to do them really fast.
+
+17
+01:19.040 --> 01:21.590
+So this first first part is going to be really slow,
+
+18
+01:21.590 --> 01:27.620
+and then once you get some foundational knowledge, then you'll be writing scripts like it's nobody's
+
+19
+01:27.620 --> 01:28.220
+business.

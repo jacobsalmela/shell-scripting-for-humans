@@ -1,0 +1,84 @@
+WEBVTT
+
+0
+00:02.640 --> 00:08.540
+So now that you know how to write a script in vim, make it executable with chmod, and run it,
+
+1
+00:10.110 --> 00:21.210
+you can practice that whole workflow by making a brand new script.  So I'm just gonna' clear my screen here
+
+2
+00:22.140 --> 00:24.150
+and I want you to make a new script called debug.sh. So do 'vim debug.sh', press "i" once for Insert Mode,
+
+3
+00:25.980 --> 00:31.560
+Write your shebang,
+[Musical singing] She-baaaang!
+Add a comment,
+
+4
+00:33.460 --> 00:41.200
+'this adds debug output to this script'
+
+5
+00:42.460 --> 00:49.360
+and now here's a new command: 'set -x' the 'set' command lets you set all sorts of different--you know-options and things you can do for your terminal
+
+6
+00:49.360 --> 00:56.650
+this 'x' basically turns on debug mode so you can see more output from your script when it runs.
+
+7
+00:56.950 --> 00:58.000
+Then type 'echo i can debug my script now'
+
+8
+00:58.870 --> 01:01.300
+Press escape once, type ":wq", type 'chmod 755 debug.sh',
+
+9
+01:02.890 --> 01:04.690
+And then type './debug.sh'
+
+10
+01:04.810 --> 01:08.720
+So now when you ran your script with that 'set -x', basically every line that's in your script will
+
+11
+01:09.190 --> 01:10.630
+print the line of code that you wrote and then it's output as well.
+
+12
+01:11.110 --> 01:15.870
+So this little '+' here, is the line of code that's being run and then this is the actual output from it.
+
+13
+01:17.500 --> 01:24.760
+So that's just a nice way to get--to get the debug output onto your script.
+
+14
+01:24.760 --> 01:25.930
+So practice this once more.  Just type 'debug2.sh' this time, 'vim debug2.sh', "i" for Insert Mode,
+
+15
+01:26.650 --> 01:28.810
+#!/bin/bash, a comment, 'set -x'
+
+16
+01:29.890 --> 01:31.660
+'echo debugging some more'
+'echo debugging another line'
+
+17
+01:32.080 --> 01:36.700
+Escape, ":wq", 'chmod 755 debug2.sh', './debug2.sh'
+
+18
+01:36.700 --> 01:40.030
+Mostly that was just so you can get some more practice doing this workflow
+
+19
+01:40.480 --> 01:46.610
+The 'vim', the 'chmod', and then the './' to run your script.

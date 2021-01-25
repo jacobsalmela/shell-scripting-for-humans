@@ -1,0 +1,133 @@
+WEBVTT
+
+0
+00:02.510 --> 00:07.030
+All right, so your script is coming along, so let's get a new one going here.
+
+1
+00:08.690 --> 00:11.390
+We want trap.sh and we're going to make a--
+
+2
+00:15.150 --> 00:20.220
+parse_args.sh script, so edit that.
+
+3
+00:22.800 --> 00:29.010
+So you're already your script already does a little bit of parsing for options and flags using these
+
+4
+00:29.010 --> 00:36.690
+little 'expr' commands. If you wanted to add other flags to your script, you can there's a program
+
+5
+00:36.690 --> 00:42.870
+called getopts--Get Options--and it utilizes some loops
+
+6
+00:42.990 --> 00:46.020
+that I'm going to show you in the next section
+
+7
+00:46.410 --> 00:51.960
+So for now, I'll just write it out and then you can see it how it works and then I'll cover how those
+
+8
+00:51.960 --> 00:53.100
+loops are actually working.
+
+9
+00:56.220 --> 01:03.720
+So you can do 'while getopts' and you know, you can add whatever flags you want in here.
+
+10
+01:03.720 --> 01:06.420
+So maybe there's a, 'b' and an 'e'
+
+11
+01:09.540 --> 01:16.110
+'opt do' and I like to hit 'done' right away.
+
+12
+01:17.940 --> 01:20.100
+And now we're going to add a 'case' statement.
+
+13
+01:26.010 --> 01:35.160
+There's a variable right there, 'opt', and kind of like the 'if' statement, you have to close the case
+
+14
+01:35.160 --> 01:47.790
+statement with the 'esac'--case backwards. And then inside you do something for 'b' and something for 'e',
+
+15
+01:49.860 --> 01:54.240
+and then you can use '*' as like a default.
+
+16
+01:55.260 --> 02:03.720
+So here we put our 'usage' and you end these lines with a double semicolon.
+
+17
+02:04.950 --> 02:11.550
+So if they don't pass one of these options, it's it's just going to show the usage so they know how
+
+18
+02:11.550 --> 02:13.320
+to use the program properly.
+
+19
+02:14.430 --> 02:19.560
+So here we can just say--we can use our little function and go
+
+20
+02:21.550 --> 02:28.660
+'-b flag passed', then the double semicolons.
+
+21
+02:31.510 --> 02:35.340
+'-e flag' [typing]
+
+22
+02:39.550 --> 02:40.540
+double (semi) colon.
+
+23
+02:46.770 --> 02:49.120
+So that should be good.
+
+24
+02:53.140 --> 02:55.090
+Let's do 'parse_args.sh -b'
+
+25
+03:03.640 --> 03:03.920
+[To self] Oops for 'in'
+
+26
+03:09.730 --> 03:11.940
+-b flagged and now it's sleeping.
+
+27
+03:12.680 --> 03:18.280
+I can hit my Control+C there, passing '-e'--recognized my '-e flag'
+
+28
+03:20.220 --> 03:27.070
+If I don't pass anything, that's going to run through the 'sleep'.  If pass it a flag
+
+29
+03:27.080 --> 03:27.930
+it doesn't know,
+
+30
+03:27.990 --> 03:29.180
+'-g'
+
+31
+03:30.440 --> 03:32.600
+It's going to show you your usage.
+
+32
+03:33.200 --> 03:36.980
+So that's a nice little way to parse the arguments and options.

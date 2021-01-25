@@ -1,0 +1,93 @@
+WEBVTT
+
+0
+00:03.130 --> 00:08.920
+OK, so let's actually copy our logging script and name it trap.sh script.
+
+1
+00:12.360 --> 00:21.460
+Then let's go look at that.  So rid of this first line, you can add a trap and then you're going to put what
+
+2
+00:21.460 --> 00:23.230
+you want to run.
+
+3
+00:25.660 --> 00:31.930
+So we want to run our info thing and we're just going to say 'Cancelling'.
+
+4
+00:35.680 --> 00:39.040
+So this is going to run our info function from right here.
+
+5
+00:40.360 --> 00:43.250
+And then it's just going to say 'Cancelling...' just so you can know it.
+
+6
+00:43.270 --> 00:46.210
+So this could be really any function or code that you want.
+
+7
+00:47.200 --> 00:52.870
+And then this SIGINT, that just means if somebody is going to press Control+C in the middle of
+
+8
+00:52.870 --> 00:57.760
+your script, this is a way to run something when that happens.
+
+9
+01:00.610 --> 01:02.170
+So let's get rid of this.
+
+10
+01:06.410 --> 01:11.900
+And for right now, I'm just going to make the script do a 'sleep' so you can see how this works.
+
+11
+01:14.600 --> 01:15.680
+So 'trap.sh'
+
+12
+01:16.750 --> 01:20.450
+So now it's just sleeping for 15 seconds, but if I hit Control+C.
+
+13
+01:21.670 --> 01:25.930
+Then it'll just say 'Cancelling...' and then that gets appended to that log.
+
+14
+01:27.980 --> 01:31.400
+That log should be there... [To self] Canceling, cancelling.
+
+15
+01:38.060 --> 01:44.420
+So here we're just doing some simple text to the screen, but, you know, you might want to be able
+
+16
+01:44.690 --> 01:49.880
+to run a function--you could run your cleanup function here if it wasn't too destructive, really,
+
+17
+01:49.880 --> 01:54.980
+you could put whatever code you want right in there and we'll run it when someone hits
+
+18
+01:54.980 --> 01:55.320
+Control+C.
+
+19
+01:56.450 --> 01:58.360
+So let's actually add that in here
+
+20
+02:01.220 --> 02:02.060
+so we know.
+
+21
+02:11.740 --> 02:12.140
+Here we go.
+
+22
+02:13.020 --> 02:14.340
+It's--those are traps.

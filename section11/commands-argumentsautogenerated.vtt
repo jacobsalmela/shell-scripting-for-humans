@@ -1,0 +1,37 @@
+WEBVTT
+
+0
+00:02.020 --> 00:09.310
+You may have you may have heard me use this term "arguments" as you've gone through the course and argument
+
+1
+00:09.310 --> 00:14.170
+is what you write after the command name: 'ls /tmp'.
+
+2
+00:14.170 --> 00:17.140
+So '/tmp' is the argument to the 'ls' command.
+
+3
+00:18.900 --> 00:32.340
+The mv command has two arguments: a source file, and a dest file. So that command two arguments.
+
+4
+00:33.900 --> 00:38.760
+So most commands will take arguments so that you can actually reuse the command, but just do something
+
+5
+00:38.760 --> 00:39.270
+different.
+
+6
+00:39.570 --> 00:45.810
+So like you want to use mv, but every time you use it, you want to do something different with the--
+
+7
+00:45.990 --> 00:47.160
+the files are going to be different.
+
+8
+00:47.670 --> 00:51.660
+So that's where arguments can come and work nicely with the commands.

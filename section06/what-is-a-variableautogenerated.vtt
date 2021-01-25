@@ -1,0 +1,113 @@
+WEBVTT
+
+0
+00:02.960 --> 00:10.340
+So those last several sections were intentionally going pretty slow, if you're already somewhat familiar
+
+1
+00:10.340 --> 00:12.800
+with, you know, scripting a little bit,
+
+2
+00:13.010 --> 00:14.270
+it probably felt really slow.
+
+3
+00:14.480 --> 00:20.330
+But now we're actually going to get into some more of the scripting stuff and programming type stuff.
+
+4
+00:21.290 --> 00:24.290
+So I'm going to teach you about what variables are.
+
+5
+00:24.600 --> 00:27.580
+And you've actually already written one if you didn't know.
+
+6
+00:28.520 --> 00:35.690
+So if we look at our script that we made the cd file browser script: this right here is the variable.
+
+7
+00:36.470 --> 00:43.700
+So it's a built-in variable that lets you get all the arguments to this script as a single string separated
+
+8
+00:43.700 --> 00:44.630
+by spaces.
+
+9
+00:45.770 --> 00:49.070
+So that might be different in some cases, but usually it's a space.
+
+10
+00:50.420 --> 00:56.120
+So if I passed more than one file path to that, it would show those.
+
+11
+00:57.590 --> 01:03.120
+So you can actually see this behavior by using this 'bash -x'.
+
+12
+01:04.340 --> 01:11.780
+So this is another way to use the 'set -x' command, but you can just run this without having to
+
+13
+01:11.780 --> 01:14.130
+actually have that 'set -x' in your script.
+
+14
+01:14.990 --> 01:20.340
+So do 'bash -x ./cd /tmp'
+
+15
+01:23.000 --> 01:32.510
+So our script had all this on one line but so first it ran the built-in cd and then the folder that
+
+16
+01:32.510 --> 01:33.180
+we passed it.
+
+17
+01:34.340 --> 01:42.560
+So this variable here,'$*', is being replaced with whatever we pass to it and then--then
+
+18
+01:42.560 --> 01:51.170
+it runs the ls command.  And this '&&' here that means this command is only going to run if this previous
+
+19
+01:51.170 --> 01:52.970
+command was successful.
+
+20
+01:55.310 --> 02:03.040
+So I'll show you some more about that variable.  So you could say './cd /tmp'  or you know
+
+21
+02:03.130 --> 02:04.280
+'/home' on Linux.
+
+22
+02:07.000 --> 02:16.030
+So there it passed in /tmp and /Users, but it only went to the first one because we're just you can't
+
+23
+02:16.240 --> 02:19.180
+change directory into two different directories at the same time.
+
+24
+02:20.440 --> 02:25.420
+But that's just showing you how this special variable can contain whatever you pass to it.
+
+25
+02:28.000 --> 02:32.110
+So that's--this '$*' is like a pre-existing variable.
+
+26
+02:32.650 --> 02:38.380
+It's a pretty useful one, but when you're doing shell scripting, it's actually fun to create your
+
+27
+02:38.380 --> 02:40.720
+own, which you're going to be doing in the next lecture.

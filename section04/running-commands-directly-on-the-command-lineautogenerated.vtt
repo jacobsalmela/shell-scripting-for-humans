@@ -1,0 +1,81 @@
+WEBVTT
+
+0
+00:02.960 --> 00:08.060
+So you've done a bit of work already inside the shell, inside of a shell script, and directly on the
+
+1
+00:08.060 --> 00:13.340
+command line, so it's kind of helpful to think about shell scripts as a place to compile a bunch of
+
+2
+00:13.340 --> 00:15.620
+commands that you already know.
+
+3
+00:15.990 --> 00:21.680
+At the end of this section, you're going to read a simple shell script that will emulate part of a file
+
+4
+00:21.680 --> 00:23.630
+exploring app such as the Finder here.
+
+5
+00:24.430 --> 00:29.030
+So there's all sorts of commands that can come preinstalled and are available to you already.
+
+6
+00:29.300 --> 00:35.870
+And you can also add some more by installing some other third party software, third party commands.
+
+7
+00:36.080 --> 00:41.570
+But basically you're just going to be exploring the command line and doing some experimentation directly
+
+8
+00:41.570 --> 00:49.040
+on the command line so you can convert that into a shell script to save yourself some time, which is
+
+9
+00:49.040 --> 00:51.710
+also a common motivation for writing shell scripts.
+
+10
+00:53.090 --> 00:57.500
+So if you figure out how to do something on the command line, you can basically copy and paste those
+
+11
+00:57.500 --> 01:02.660
+commands right into your shell script and in its simplest state, that works.
+
+12
+01:03.950 --> 01:08.720
+So there's going to be times that you'll need to learn extra things like if statements or loops or conditional
+
+13
+01:08.720 --> 01:12.020
+checks, but you'll be learning about those in the later lesson.
+
+14
+01:13.700 --> 01:18.980
+And then the commands you're about to learn are often the first thing many Linux 101 courses
+
+15
+01:18.980 --> 01:19.640
+will teach you.
+
+16
+01:20.660 --> 01:26.630
+But since you're learning shell scripting and Linux, there's a specific reason I left these out of
+
+17
+01:26.630 --> 01:29.150
+the curriculum until now, which you'll see.
+
+18
+01:30.290 --> 01:34.790
+And as you're progressing through the section and learning new commands, try to think about how they
+
+19
+01:34.790 --> 01:39.350
+could be used inside of a shell script that would act as a file browser.

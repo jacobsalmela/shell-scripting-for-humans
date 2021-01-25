@@ -1,0 +1,105 @@
+WEBVTT
+
+0
+00:03.060 --> 00:09.960
+I'm going to show you how to make your own return codes now.  Let's actually use that dir_args.sh script,
+
+1
+00:09.960 --> 00:17.670
+because we already know there's a conditional check in here for if you pass a file, then it gives an
+
+2
+00:17.670 --> 00:18.570
+error message here.
+
+3
+00:20.940 --> 00:23.040
+So what we can actually do is do 'exit'--
+
+4
+00:23.820 --> 00:27.670
+you know, it could be any number you want, really, as long as it's not 0.
+
+5
+00:29.140 --> 00:29.430
+This--
+
+6
+00:30.430 --> 00:36.040
+in our code--this means that you can't--we don't want a file here because we're trying to search through
+
+7
+00:36.040 --> 00:42.910
+a directory, so we give them a helpful error message here and then you give them a return code of your
+
+8
+00:42.910 --> 00:43.300
+choice.
+
+9
+00:43.330 --> 00:47.110
+This could be any number--any--'exit 43' if you want.
+
+10
+00:51.190 --> 00:53.510
+So let's write that and then try to run in here.
+
+11
+00:53.530 --> 00:54.580
+So if I run it with-- [typing]
+
+12
+00:57.860 --> 01:03.630
+And I do an ech--check the return code here, that's a 0.
+
+13
+01:04.810 --> 01:06.400
+But now if I pass it a file...
+
+14
+01:10.120 --> 01:10.660
+Perfect.
+
+15
+01:12.940 --> 01:13.540
+So now,
+
+16
+01:14.710 --> 01:19.900
+that's a perfect way for me to see where in my code the whoever was running the script had a problem.
+
+17
+01:21.160 --> 01:23.080
+so far to go into my school code.
+
+18
+01:23.380 --> 01:31.660
+I can do--if you're in Command Mode--this is a way you can search: you can do '/43' and hit enter.
+
+19
+01:32.980 --> 01:33.550
+Ah, there we go.
+
+20
+01:34.000 --> 01:35.290
+So this user--
+
+21
+01:36.650 --> 01:38.790
+Oh, they did not pass--the $search_dir--
+
+22
+01:38.800 --> 01:40.210
+was a file, that's why.
+
+23
+01:41.340 --> 01:46.350
+Not really a problem for us, because we already need to account for that, but it's good you can search
+
+24
+01:46.350 --> 01:47.610
+by the exit code.
+
+25
+01:50.580 --> 01:53.940
+And that's how you make your own exit codes.

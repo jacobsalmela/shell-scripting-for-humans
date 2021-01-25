@@ -1,0 +1,69 @@
+WEBVTT
+
+0
+00:03.130 --> 00:11.020
+Let's move this--this little 'for' loop into a shell script and see what we can do with it. And I think
+
+1
+00:11.020 --> 00:18.410
+we're going to try to rename these files to make the IMG characters all lowercase, just as a good example.
+
+2
+00:19.930 --> 00:26.470
+So let's make a lowercase.sh.   "i" for Insert.
+
+3
+00:29.560 --> 00:30.760
+#!/bin/bash
+
+4
+00:34.820 --> 00:36.380
+This--yeah--renames files to all lowercase
+
+5
+00:45.540 --> 00:48.210
+'for f in ./*; do'
+
+6
+00:51.760 --> 00:54.430
+And then let's just do and 'echo' statement, to make sure we got this right.
+
+7
+01:12.490 --> 01:14.160
+Let's run it--./lowercase.sh
+
+8
+01:16.450 --> 01:22.600
+Yep, OK.  But let's add an 'if' statement only do those IMG files in there.
+
+9
+01:29.420 --> 01:30.130
+So let's do
+
+10
+01:36.610 --> 01:45.640
+'if [[ -f $f ]]' So if $f is a file, 'then'
+
+11
+01:59.780 --> 02:07.100
+So our 'deer' directory was in there, so we didn't show that, so that's good; but still we only
+
+12
+02:07.100 --> 02:12.920
+want the images. So we can actually just do that.
+
+13
+02:16.660 --> 02:17.950
+And there's all our images.
+
+14
+02:20.620 --> 02:20.980
+Right.
+
+15
+02:21.010 --> 02:26.950
+So before you can actually learn how to start renaming these files to all lowercase, I have to teach
+
+16
+02:26.950 --> 02:31.780
+you about the pipe character that looks just like this.

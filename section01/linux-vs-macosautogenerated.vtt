@@ -1,0 +1,101 @@
+WEBVTT
+
+0
+00:03.020 --> 00:09.410
+So I put as having a Mac as a requirement for this course, because it works really well for learning
+
+1
+00:09.410 --> 00:11.720
+shell scripting, because it has everything you need on it.
+
+2
+00:12.560 --> 00:16.940
+You have your graphical interface, which you're probably already used to, and then you can just open
+
+3
+00:16.940 --> 00:18.680
+up Terminal and start typing right away.
+
+4
+00:19.010 --> 00:22.100
+And there's even a built in text editor to help you write your scripts.
+
+5
+00:22.640 --> 00:24.050
+But I'm just going to show you something here.
+
+6
+00:26.420 --> 00:28.130
+You don't have to worry about what I'm doing right now.
+
+7
+00:28.130 --> 00:31.880
+I'm just setting up a little Linux machine that I can show you some differences.
+
+8
+00:33.380 --> 00:37.610
+So basically, what's the difference between macOS and Linux?
+
+9
+00:38.630 --> 00:40.450
+The good news is for you, not very much.
+
+10
+00:41.810 --> 00:45.230
+So that's what the shell--that's why shells were developed.
+
+11
+00:45.530 --> 00:52.190
+So basically your shell could stay mostly the same, you know, commands could be the same.
+
+12
+00:53.180 --> 00:59.750
+And then you can put that shell on a different operating system and it would run just the same.
+
+13
+01:01.600 --> 01:06.850
+I'm just logging into my Linux machine over here now so I can show you some differences.
+
+14
+01:08.190 --> 01:16.890
+So I echo what shell I'm, in, so you'll notice that we used bash, but this one is another show called
+
+15
+01:16.890 --> 01:20.190
+zsh, which is basically compatible with bash.
+
+16
+01:22.300 --> 01:29.700
+If I take the same thing over here, there's the bash that we used before and, you'll notice I
+
+17
+01:29.700 --> 01:31.630
+was able to use the echo command on both.
+
+18
+01:32.130 --> 01:40.100
+So this is Linux and this is macOS, which is also goes by the name Darwin.
+
+19
+01:40.650 --> 01:46.200
+But I mean, even see here, since these are totally different systems, I was able to run the same
+
+20
+01:46.200 --> 01:48.330
+command and get different output.
+
+21
+01:49.950 --> 01:55.950
+So that's why shell scripting is kind of appealing because, you know, I can develop my shell script
+
+22
+01:55.950 --> 02:00.360
+on the Mac and then if I want it to run Linux, I can have it do that.
+
+23
+02:02.040 --> 02:06.570
+That's easier said than done, of course, but by the end of the course, you'll have some skills to
+
+24
+02:06.570 --> 02:07.860
+know how to do just that.

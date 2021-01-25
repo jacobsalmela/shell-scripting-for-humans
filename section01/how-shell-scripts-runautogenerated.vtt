@@ -1,0 +1,65 @@
+WEBVTT
+
+0
+00:03.830 --> 00:05.960
+So how do your Shell scripts actually run?
+
+1
+00:07.330 --> 00:16.300
+Well, when you typed in, 'say', and then 'whatever-text-you-wanted', this say command; you were telling the computer
+
+2
+00:16.300 --> 00:21.470
+to use that say command and then passing it whatever information you wanted.
+
+3
+00:22.600 --> 00:30.820
+So your your little command line prompt here is interpreting what command you want to run and with what
+
+4
+00:30.820 --> 00:31.390
+arguments.
+
+5
+00:32.980 --> 00:36.880
+So that's why you call the shell a command line interpreter.
+
+6
+00:38.410 --> 00:40.870
+So basically that's all what shell scripting is.
+
+7
+00:42.010 --> 00:44.590
+So you can type in as many commands as you want.
+
+8
+00:45.520 --> 00:46.330
+echo this.
+
+9
+00:46.330 --> 00:48.490
+echo that.
+
+10
+00:49.750 --> 00:55.630
+So if you copied and pasted these two lines right into a file and ran it with Bash, it would print
+
+11
+00:55.630 --> 00:56.410
+this and that.
+
+12
+00:57.910 --> 01:03.010
+So that's kind of the nice thing about shell scripting versus other programming languages--
+
+13
+01:03.940 --> 01:11.770
+--and shell code really isn't a programming language per-say, but it's really nice because you can just
+
+14
+01:11.770 --> 01:17.900
+type out the commands and try them out yourself first and then paste them into a file and they'll run
+
+15
+01:17.920 --> 01:18.970
+exactly the same way.

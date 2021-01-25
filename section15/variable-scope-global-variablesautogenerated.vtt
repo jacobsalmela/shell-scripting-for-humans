@@ -1,0 +1,81 @@
+WEBVTT
+
+0
+00:03.240 --> 00:09.280
+So here's our version script, and I'm going to show you about variable scope right now.
+
+1
+00:10.230 --> 00:14.040
+So first tell you about global variables.
+
+2
+00:15.660 --> 00:23.550
+So this right now is a global variable because it's not inside of a function and it's usually a good
+
+3
+00:23.550 --> 00:27.510
+practice in your scripts to just make these capitalized--then you can--
+
+4
+00:28.140 --> 00:29.070
+at least that's what I do.
+
+5
+00:29.070 --> 00:31.070
+I make them all capital so I know they're global.
+
+6
+00:34.050 --> 00:38.850
+And then you can use them inside the function because they're available globally.
+
+7
+00:48.930 --> 00:57.780
+Add a little statement here inside the function--this is just so you can illustrate what's going on
+
+8
+00:58.140 --> 00:59.110
+with the scope.
+
+9
+01:02.350 --> 01:07.210
+So '\$VERSION is $VERSION' and then it will exit.
+
+10
+01:17.030 --> 01:18.590
+[To self] Take off this 'exit' for now...
+
+11
+01:22.700 --> 01:23.290
+Let's say...
+
+12
+01:29.680 --> 01:36.220
+'\$VERSION is $VERSION'. So we have an echo statement that's inside the function and one that's outside the
+
+13
+01:36.220 --> 01:36.670
+function.
+
+14
+01:38.500 --> 01:40.180
+Let's just put that up here, too.
+
+15
+01:51.400 --> 01:53.080
+OK, save that and run that.
+
+16
+01:58.190 --> 02:02.120
+All right, so inside the function version is '1.0' and outside.
+
+17
+02:02.450 --> 02:04.550
+That's because this is a global variable.
+
+18
+02:06.300 --> 02:09.770
+We have access to this variable, whether you're in the function or not.
+
+19
+02:14.380 --> 02:16.930
+So next, I'm going to show you about local variables.

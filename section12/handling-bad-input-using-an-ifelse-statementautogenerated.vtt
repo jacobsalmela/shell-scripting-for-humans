@@ -1,0 +1,101 @@
+WEBVTT
+
+0
+00:03.310 --> 00:06.070
+So let's look at our directory argument script,
+
+1
+00:09.010 --> 00:16.240
+The second one doesn't really do anything right now, but what do you do if a user for their search
+
+2
+00:16.240 --> 00:17.980
+directory passes in a file?
+
+3
+00:19.420 --> 00:21.910
+Your script is just going to break, right? And is not going to work.
+
+4
+00:22.240 --> 00:23.380
+So let's try that.
+
+5
+00:29.360 --> 00:32.530
+[To self] And I think there's a some sort of script in here...
+
+6
+00:36.500 --> 00:38.480
+we'll give it a file name instead of a folder.
+
+7
+00:41.140 --> 00:42.670
+So it didn't really do--
+
+8
+00:43.120 --> 00:47.500
+It didn't error out, it didn't print anything, so it was just kind of weird.
+
+9
+00:48.370 --> 00:51.550
+This is the actually the first--the second argument that we didn't print.
+
+10
+00:57.140 --> 01:02.990
+But really, this isn't searching a directory, it's only searching a file.
+
+11
+01:04.260 --> 01:08.430
+What if you gave it, you know, something that doesn't exist?
+
+12
+01:12.880 --> 01:19.690
+So you kind of want to try to help the user and give--them instead of handling some bad--just taking
+
+13
+01:19.690 --> 01:23.830
+in the default input that they give you, you might want to
+
+14
+01:25.160 --> 01:28.430
+check things first--So a simple check, 
+
+15
+01:34.650 --> 01:42.220
+we already have a place: if it's a directory or not.  But this should be a little more of a help--
+
+16
+01:42.220 --> 01:42.990
+helpful message.
+
+17
+01:44.110 --> 01:48.900
+You want to--you want to be able to give the users some actionable information on what they can do to
+
+18
+01:48.900 --> 01:52.080
+actually get it to work the way you want it to.
+
+19
+01:53.370 --> 01:56.670
+So instead of just saying skipping--like--the file, you should say:
+
+20
+02:02.370 --> 02:05.730
+You can add a little helpful statement here: 'if...
+
+21
+02:14.400 --> 02:17.040
+Well, if '$search_dir' is a file..
+
+22
+02:31.350 --> 02:33.200
+So now if you run it again
+
+23
+02:37.100 --> 02:37.510
+with our.. [typing] 
+
+24
+02:42.390 --> 02:47.120
+So there: there's some actionable information 'you need to pass a directory for this script'.

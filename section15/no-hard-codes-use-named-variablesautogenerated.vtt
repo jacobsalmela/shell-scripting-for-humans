@@ -1,0 +1,153 @@
+WEBVTT
+
+0
+00:02.180 --> 00:06.950
+Right, so let's add another function to your script here.
+
+1
+00:09.190 --> 00:11.270
+Let's get rid of some of this stuff because...
+
+2
+00:13.970 --> 00:15.980
+...we don't need it.
+
+3
+00:20.850 --> 00:21.140
+There.
+
+4
+00:22.290 --> 00:24.030
+So now it's only going to print the version.
+
+5
+00:26.530 --> 00:27.720
+Let's make another function.
+
+6
+00:30.900 --> 00:37.490
+'cleanup', so it's--in a lot of your scripts, it's nice to have a little clean up function in case you're
+
+7
+00:38.240 --> 00:43.400
+using a bunch of temporary files or whatever.  So let's  just say...
+
+8
+00:46.170 --> 00:53.540
+'running clean up...', and then you might want to use-- like clean up what's in the folder.
+
+9
+01:00.170 --> 01:05.880
+So this would forcefully remove anything in whatever folder you pass to this function.
+
+10
+01:06.860 --> 01:15.200
+So just like you can use these dollar sign number variables in your script, you can use them inside
+
+11
+01:15.200 --> 01:16.230
+of a function as well.
+
+12
+01:24.180 --> 01:26.910
+So here, this will be a good example:
+
+13
+01:32.290 --> 01:35.890
+'removing files from' there. So we're not actually going to do that.
+
+14
+01:38.660 --> 01:42.060
+But I want to show you that these two are different as well.
+
+15
+01:44.060 --> 01:46.680
+So this is also--kind of relates to the variable scope.
+
+16
+01:47.600 --> 01:50.990
+So you say 'you passed
+
+17
+01:54.360 --> 01:54.840
+$1
+
+18
+02:00.950 --> 02:01.660
+to the script'
+
+19
+02:03.660 --> 02:05.730
+You're going to see that these two are going to be different.
+
+20
+02:08.330 --> 02:11.420
+We'll say 'cleanup /tmp'
+
+21
+02:17.080 --> 02:17.600
+Now if we run out script...
+
+22
+02:19.200 --> 02:25.140
+So you passed to the script, nothing... [typing] '/home'
+
+23
+02:30.100 --> 02:35.320
+So you passed /home to the script, but then it's going to be removing files from /tmp
+
+24
+02:41.860 --> 02:43.000
+so this
+
+25
+02:43.000 --> 02:43.690
+$1 here
+
+26
+02:46.520 --> 02:56.270
+is the argument you passed to the script itself, but this $1 here is what you passed down here
+
+27
+02:56.270 --> 02:57.020
+to the function.
+
+28
+02:59.420 --> 03:03.250
+So this is another good reason why you want to use named the variables.
+
+29
+03:04.760 --> 03:05.870
+So if you just do
+
+30
+03:09.370 --> 03:11.690
+first_arg and at least give it a name of something,
+
+31
+03:15.110 --> 03:27.140
+change that.  And even here this can be a local variable--so you can name it 'local dir_to_clean
+
+32
+03:31.810 --> 03:32.070
+=$1'
+
+33
+03:39.710 --> 03:42.020
+So if you run that again...
+
+34
+03:43.450 --> 03:49.810
+You still passed /home to the script and then your /tmp  there, but then if you look at your code,
+
+35
+03:52.110 --> 03:53.440
+it's a lot easier to read.
+
+36
+03:53.940 --> 03:59.880
+So you know that this first arg is the one that was passed on your script and this one is the one passed
+
+37
+03:59.880 --> 04:01.590
+to the function, right there.

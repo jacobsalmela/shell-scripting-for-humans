@@ -1,0 +1,33 @@
+WEBVTT
+
+0
+00:03.060 --> 00:10.150
+All right, so you've actually also seen these things called flags or options every time you type 'ls -l'
+
+1
+00:10.170 --> 00:13.230
+that '-l' is one of the flags.
+
+2
+00:14.310 --> 00:21.750
+So you can type 'ls -lh' and you will see the file sizes will be like a more human-readable format.
+
+3
+00:22.650 --> 00:24.570
+So they're in kilobytes or bytes.
+
+4
+00:25.900 --> 00:29.200
+Remember that 'ls' had all these--
+
+5
+00:29.430 --> 00:34.830
+these are all different options or flags that you can pass to make it do different things.
+
+6
+00:34.830 --> 00:41.180
+You can make it in show colors, sizes, whatever--whatever else all these options do.
+
+7
+00:42.210 --> 00:46.740
+But using flags are great because they help modify the behavior of the command.

@@ -1,0 +1,257 @@
+WEBVTT
+
+0
+00:02.520 --> 00:06.600
+All right, so we're getting into some cool stuff now with these scripts, I'm going to show you how
+
+1
+00:06.600 --> 00:10.410
+to add some nice logging to your script here.
+
+2
+00:14.110 --> 00:22.810
+Copy your current one, 'usage.sh' and make one called 'logging.sh'...that just saves some typing there.
+
+3
+00:25.700 --> 00:27.670
+So we have our help and our version there.
+
+4
+00:29.740 --> 00:32.740
+OK, so this is kind of a long command, but it's pretty useful:
+
+5
+00:35.530 --> 00:41.980
+inside of a variable, change directory into another variable
+
+6
+00:45.670 --> 00:47.320
+I'll put that in quotes, too.
+
+7
+00:50.890 --> 00:57.070
+So we're going to say 'dirname' to get the directory name...
+
+8
+01:04.750 --> 01:05.480
+$BASH_SOURCE
+
+9
+01:09.280 --> 01:10.110
+0
+
+10
+01:12.830 --> 01:15.250
+in close that out.
+
+11
+01:19.480 --> 01:21.910
+That's going to go--we're just going to hide the output of that.
+
+12
+01:24.210 --> 01:28.050
+And this part I haven't shown yet, but you don't really need to know about it right now.
+
+13
+01:28.760 --> 01:36.540
+I've shown you the end and that's only going to run this 'pwd' command if the command is successful.
+
+14
+01:45.910 --> 01:46.720
+That's right.
+
+15
+01:53.680 --> 01:54.040
+OK
+
+16
+01:59.430 --> 02:00.480
+OK, so that's good.
+
+17
+02:01.410 --> 02:05.080
+So here I ran it with 'bash -x', so you can see what's going on.
+
+18
+02:07.020 --> 02:08.670
+So basically that giant command
+
+19
+02:08.670 --> 02:16.740
+we did said get the directory name of our script that we're running right now, 'cd' there, and print
+
+20
+02:16.740 --> 02:17.790
+the working directory.
+
+21
+02:18.430 --> 02:21.000
+Then that variable is now set to $DIR.
+
+22
+02:21.750 --> 02:23.880
+So this will always know where our script is.
+
+23
+02:27.240 --> 02:33.330
+And then we can start adding--well, let's add one more place--one more variable
+
+24
+02:36.280 --> 02:44.500
+of where our log file is going to be. So set this to 'readonly'.  I haven't shown you this yet, but it's
+
+25
+02:44.500 --> 02:47.770
+just a way to make sure this variable does not change.
+
+26
+02:49.850 --> 02:54.550
+So it's just a good practice to do.  So,
+
+27
+02:54.560 --> 02:58.360
+we'll say, '$DIR',  using the directory from above,
+
+28
+03:03.250 --> 03:06.070
+and then we use 'basename'.
+
+29
+03:12.630 --> 03:20.910
+So now we're just going to grab just the--just the name--if we happen to have '.sh' in our script name,
+
+30
+03:21.210 --> 03:24.570
+this is going to grab just the name of it.
+
+31
+03:27.960 --> 03:29.130
+Just a little trick.
+
+32
+03:35.090 --> 03:36.200
+Put that * there.
+
+33
+03:40.280 --> 03:41.590
+and we'll name it '.log'.
+
+34
+03:47.320 --> 03:48.550
+So there you can see...
+
+35
+03:50.220 --> 03:57.300
+our file name for a script is logging.sh, so it's that little last thing that we put in there.
+
+36
+03:57.540 --> 04:02.210
+It's going to set a log file to the name of our script without the .sh on there.
+
+37
+04:03.090 --> 04:06.120
+So it matches and then it'll just be logging.log.
+
+38
+04:07.470 --> 04:10.170
+So that'll work for any script name that you happen to name it.
+
+39
+04:13.190 --> 04:13.650
+OK.
+
+40
+04:16.400 --> 04:18.110
+So now we can just add a few more...
+
+41
+04:21.110 --> 04:26.090
+lines here for different things--and these are actually going to be functions.  I'm just going to
+
+42
+04:26.090 --> 04:28.530
+put them all on one line so it's kind of easy to see.
+
+43
+04:30.170 --> 04:34.580
+So let's just make a simple informational one.
+
+44
+04:39.600 --> 04:46.280
+And I'm just going to put some spaces in here, so the formatting is nice...'echo'.
+
+45
+04:49.880 --> 04:53.720
+So this is what it's actually show up in the log messages, '[INFO]'.
+
+46
+05:02.600 --> 05:10.490
+and then here we're going to use the pipe again, and this is a new command for you: 'tee'. This command will
+
+47
+05:11.300 --> 05:21.860
+show the output on the screen and then it's going to also append it to a file of our choice, which we
+
+48
+05:21.860 --> 05:23.390
+already made this log file here.
+
+49
+05:24.920 --> 05:25.940
+So we'll just do that.
+
+50
+05:31.990 --> 05:36.110
+And that says not to do the errors on there. There.
+
+51
+05:42.520 --> 05:43.840
+It was not uniform.
+
+52
+05:53.060 --> 05:55.280
+Change this to...how about '[WARNING]'
+
+53
+06:00.190 --> 06:01.100
+to find
+
+54
+06:05.210 --> 06:07.120
+let's add one for like '[DEBUG]'
+
+55
+06:19.550 --> 06:20.160
+There, so now
+
+56
+06:20.180 --> 06:24.620
+you have three functions that you can use instead of 'echo', so that should do it.
+
+57
+06:26.190 --> 06:27.500
+So I'll save that.
+
+58
+06:30.220 --> 06:32.500
+And now any time you want to write some information...
+
+59
+06:38.110 --> 06:42.490
+you can just say 'info some info'.
+
+60
+06:49.580 --> 07:01.290
+logging.sh...now if we look, we should have a logging.log with the same same information.
+
+61
+07:04.580 --> 07:11.510
+So that's a slick little way to have--have it do some logging for you so you can just keep running that and
+
+62
+07:14.000 --> 07:16.280
+then it will just keep appending to that log file.
+
+63
+07:16.910 --> 07:21.620
+So that's a nice little way to have some built in logging to your shell script.

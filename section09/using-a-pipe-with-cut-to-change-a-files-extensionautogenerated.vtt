@@ -1,0 +1,149 @@
+WEBVTT
+
+0
+00:04.420 --> 00:05.770
+So let's look at
+
+1
+00:08.590 --> 00:10.210
+another way you can use pipe.
+
+2
+00:15.260 --> 00:18.950
+And let's--let's copy this lowercase.sh script and
+
+3
+00:20.370 --> 00:21.090
+make it
+
+4
+00:26.910 --> 00:29.820
+change_extension.sh.
+
+5
+00:32.940 --> 00:34.410
+Let's go edit that.
+
+6
+00:38.430 --> 00:41.490
+OK, so we're going to change this a bit to say this
+
+7
+00:44.460 --> 00:50.100
+changes file extensions from py to sh.
+
+8
+00:52.830 --> 00:56.730
+and that './' is actually going to mess up this next command
+
+9
+00:56.760 --> 01:03.450
+we're going to do. So I'm going to save the output of a command: print working directory.
+
+10
+01:05.100 --> 01:12.480
+So this can basically--whatever folder you're in, it'll find all the files in there so we can keep this.
+
+11
+01:12.480 --> 01:15.330
+If it's a file, we're going to use the 'cut' command.
+
+12
+01:15.330 --> 01:22.630
+this time. We're going to cut on a delimiter of the period and then the second field.
+
+13
+01:24.870 --> 01:28.850
+So a file name has a file name, a period, and then an extension.
+
+14
+01:30.480 --> 01:37.740
+So if we if we were to basically cut that string on the period, you'd want to print the the second
+
+15
+01:38.070 --> 01:40.200
+thing on the right, which is the file extension.
+
+16
+01:41.700 --> 01:43.380
+So let's remove that
+
+17
+01:47.460 --> 01:50.730
+and then we'll just have to echo it out so we can see it
+
+18
+01:56.370 --> 01:59.210
+Let's print the file name here, too.
+
+19
+02:03.060 --> 02:12.930
+So let's go to our Documents/ and then run this.  Yup, so that looks right, tccutil.py is py
+
+20
+02:12.930 --> 02:15.630
+that .tex is tex-- pdf is pdf.
+
+21
+02:16.680 --> 02:17.950
+So that looks like that's working.
+
+22
+02:18.730 --> 02:19.290
+So,
+
+23
+02:21.870 --> 02:26.760
+now, we need to modify this so we can get the exten--we had the extension, but we need the filename
+
+24
+02:26.760 --> 02:30.420
+as well so we can rename it with a different extension.
+
+25
+02:32.460 --> 02:40.620
+So let's say "if the extension equals py"
+
+26
+02:50.000 --> 02:52.100
+'echo changing
+
+27
+02:56.090 --> 02:57.680
+extension to sh'.
+
+28
+03:00.540 --> 03:04.320
+And then let's make a new variable, 'fname'.
+
+29
+03:06.190 --> 03:14.210
+We're basically copy this, but we're going to get fname is equal to that, but this should be 1 instead.
+
+30
+03:17.450 --> 03:33.030
+And then you can mv the file names that we have, but give it a new name or if $fname.sh.
+
+31
+03:38.500 --> 03:39.070
+So,
+
+32
+03:42.590 --> 03:50.960
+so, the--this python file should change to a .sh file with our script.
+
+33
+03:53.870 --> 03:57.310
+I forgot got to close my 'if' statement here.
+
+34
+04:04.850 --> 04:06.620
+Yep, so there you saw it changed.
+
+35
+04:08.510 --> 04:16.790
+And so that worked! So you could basically go through and change any file extension to a different file
+
+36
+04:16.790 --> 04:18.650
+extension if you wanted with this little script.

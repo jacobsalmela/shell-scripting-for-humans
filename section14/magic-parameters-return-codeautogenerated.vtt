@@ -1,0 +1,37 @@
+WEBVTT
+
+0
+00:02.630 --> 00:10.700
+So you already saw this '$?' syntax: this is a special variable that will show
+
+1
+00:10.700 --> 00:17.330
+you the return code of the last command.  But there's something important you should know about it.
+
+2
+00:17.330 --> 00:18.950
+It's only the last command.
+
+3
+00:20.830 --> 00:26.990
+So if you echo that out, it's going to be 1 because it was it did not function properly.
+
+4
+00:28.280 --> 00:33.740
+But if you run it again, it's going to be a zero because it's only for the last command.
+
+5
+00:34.730 --> 00:40.810
+So your last command here was an echo command, which worked just fine because it printed that out.
+
+6
+00:41.660 --> 00:45.010
+So then when you run that command again, it's going to be a 0 .
+
+7
+00:46.250 --> 00:55.250
+So just something to note that this special variable will only hold the return code for the last command
+
+8
+00:55.280 --> 00:55.940
+that was run.

@@ -1,0 +1,49 @@
+WEBVTT
+
+0
+00:02.780 --> 00:06.890
+So the rm command lets you remove files to delete them.
+
+1
+00:09.830 --> 00:11.570
+So go to /tmp
+
+2
+00:19.400 --> 00:23.270
+These are just some temporary files that we can get rid of without problem.
+
+3
+00:24.740 --> 00:29.270
+So if I want to remove a file, I can do 'rm' and then the file name.
+
+4
+00:33.630 --> 00:35.000
+And there you see it disappeared,
+
+5
+00:39.360 --> 00:46.470
+so you can't actually use this against a directory without some extra flags, so you have to do '-r'
+
+6
+00:46.470 --> 00:51.990
+which means recurse to the directories.  See?  enemies as a directory.
+
+7
+00:52.170 --> 00:53.550
+That's what this 'd' means.
+
+8
+00:57.960 --> 00:58.750
+And there it's gone.
+
+9
+01:00.030 --> 01:01.800
+Same thing over here on Linux.
+
+10
+01:07.760 --> 01:09.650
+'rm' to delete it then it's gone.
+
+11
+01:21.150 --> 01:26.370
+There's no dragon balls around.  So the rm command basically lets you just remove files.

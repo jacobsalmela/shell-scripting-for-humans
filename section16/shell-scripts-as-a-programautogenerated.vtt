@@ -1,0 +1,150 @@
+WEBVTT
+
+0
+00:02.100 --> 00:04.320
+Your scripts will start to grow more complex and evolve.
+
+1
+00:04.470 --> 00:10.830
+You probably want to be able to call them just by their name and not having to type './version.sh',
+
+2
+00:11.640 --> 00:12.640
+because that's kind of annoying.
+
+3
+00:13.650 --> 00:20.190
+So we sort of did this with when you made the function, your .bash_profile or .bashrc.
+
+4
+00:21.600 --> 00:23.250
+So we just have it as a function.
+
+5
+00:24.930 --> 00:31.920
+But putting an entire script into this file isn't really going to scale that well either.
+
+6
+00:33.390 --> 00:38.950
+So it would be nice if we could have our script just be callable by name.
+
+7
+00:39.120 --> 00:40.710
+So there's a couple of ways to do that.
+
+8
+00:41.730 --> 00:42.570
+You don't need this--
+
+9
+00:42.930 --> 00:44.870
+you don't need that .sh on there.
+
+10
+00:45.090 --> 00:51.570
+So let's 'cp version.sh' and just call it...
+
+11
+00:52.440 --> 00:55.710
+ka-me-ha
+
+12
+00:55.710 --> 00:56.310
+me-ha!
+
+13
+01:01.680 --> 01:08.720
+So you can actually run that and it runs just the same because we have our shebang in there.
+
+14
+01:11.850 --> 01:20.610
+And then if you remember, a lot of these programs are here in /usr/bin and /usr/sbin.
+
+15
+01:23.960 --> 01:29.630
+But most of your homegrown files or scripts, you'll probably want to install them here.
+
+16
+01:31.250 --> 01:35.690
+So if you 'mv kamehameha' into
+
+17
+01:38.480 --> 01:39.200
+/usr/local/bin
+
+18
+01:42.020 --> 01:44.240
+Then you can just type it.
+
+19
+01:48.430 --> 01:51.160
+And there it runs just like it would any other command.
+
+20
+01:53.440 --> 01:56.680
+So let's actually move it back and I'll show you one other way that you can do this.
+
+21
+01:57.280 --> 02:00.600
+It's just as valid, but it's just another way to do it.
+
+22
+02:05.170 --> 02:06.490
+So I'll mv that back here
+
+23
+02:10.150 --> 02:10.690
+There it is.
+
+24
+02:12.430 --> 02:22.240
+So this this method depends on this variable here, so $PATH so this $PATH--this $PATH variable tells
+
+25
+02:23.120 --> 02:26.810
+your shell where to find all the commands that are available to you.
+
+26
+02:27.160 --> 02:28.900
+So here's all the normal spots.
+
+27
+02:28.900 --> 02:30.580
+/usr/bin, /usr/local/bin
+
+28
+02:31.690 --> 02:33.700
+And then I got all these other ones on here.
+
+29
+02:35.230 --> 02:45.340
+So if you do--you can modify this variable, set it equal to the current path, and then put '~'
+
+30
+02:45.340 --> 03:00.520
+in here and you can still run it, because now if you look at your path again, it'll look for any programs--
+
+31
+03:00.520 --> 03:03.060
+executable programs in your home folder.
+
+32
+03:04.000 --> 03:06.280
+So you probably don't usually want to do that.
+
+33
+03:06.470 --> 03:11.830
+You'd probably want to have like a--a ~/bin folder in your home folder if you were going to do that.
+
+34
+03:14.320 --> 03:20.230
+But that's just two methods you can do to actually just have your commands run like a real command and
+
+35
+03:20.230 --> 03:27.910
+not having to do ./scriptname.sh.
+So just gives it a little bit more of that professional
+
+36
+03:27.910 --> 03:28.390
+feel.

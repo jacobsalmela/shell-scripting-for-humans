@@ -1,0 +1,153 @@
+WEBVTT
+
+0
+00:03.180 --> 00:08.980
+So just about every command out there will have like a '-h' flag or '--help' option.
+
+1
+00:09.660 --> 00:13.530
+So even if you've never used a command before, you can figure out how to use it.
+
+2
+00:14.340 --> 00:19.500
+So in the last assignment, I had to go explore a bunch of commands that were in this /usr/bin folder.
+
+3
+00:20.820 --> 00:24.000
+And based on the names, could you guess what any of them would do?
+
+4
+00:25.170 --> 00:27.110
+This is a good way to start learning what's out there.
+
+5
+00:27.960 --> 00:34.410
+And since you know now that most commands have a built in help option, you can try running it even
+
+6
+00:34.410 --> 00:37.740
+if you've never used the command or have no idea what it is.
+
+7
+00:38.550 --> 00:40.440
+So let's try this out on a few commands.
+
+8
+00:40.440 --> 00:43.560
+Let's try 'ls
+
+9
+00:44.490 --> 00:45.390
+--help'.
+
+10
+00:46.950 --> 00:50.570
+Well there wasn't a help option, actually, for this.
+
+11
+00:50.590 --> 00:55.500
+See, it said an illegal option?  But it did show you a little usage line for the command.
+
+12
+00:56.010 --> 01:02.490
+So all these things that are in between the brackets are optional and even the file path is optional
+
+13
+01:02.580 --> 01:08.010
+because by default it will just list what's in the file or in the folder that you're in.
+
+14
+01:08.370 --> 01:09.900
+So let's try this on another one.
+
+15
+01:10.260 --> 01:12.330
+Touch, the touch command.
+
+16
+01:12.390 --> 01:13.950
+Let's try a '-h' there.
+
+17
+01:15.540 --> 01:22.720
+So that one it didn't complain that it wasn't a bad option, but it also showed us a little line here.
+
+18
+01:23.850 --> 01:30.810
+So based on this, you can see that all these things in brackets are optional, but then it needs a
+
+19
+01:30.810 --> 01:31.350
+file.
+
+20
+01:31.620 --> 01:37.110
+So how are you supposed to know what all those these different modifiers are or even what the command
+
+21
+01:37.110 --> 01:37.620
+does?
+
+22
+01:38.560 --> 01:41.400
+The help the sort of usage line doesn't really tell you that.
+
+23
+01:41.430 --> 01:46.110
+So if you've never used the touch command before, you need some more--
+
+24
+01:46.350 --> 01:48.120
+another way to get information on it.
+
+25
+01:48.540 --> 01:50.400
+So this is where man pages come in.
+
+26
+01:50.580 --> 01:53.990
+Man here is short for manual--manual page.
+
+27
+01:54.810 --> 01:57.630
+So if you type 'man touch'.
+
+28
+02:00.350 --> 02:03.360
+[sensual music] maaaan toooouch
+
+29
+02:04.900 --> 02:09.980
+This will open up a detailed manual page on how to use it.
+
+30
+02:10.330 --> 02:18.040
+So here it's telling you what each flag does and, you know, different options you can pass to it.
+
+31
+02:20.750 --> 02:22.950
+And then these are all--you see
+
+32
+02:22.960 --> 02:24.400
+it's pretty--pretty detailed.
+
+33
+02:25.180 --> 02:27.190
+And you can just press "q" here to exit.
+
+34
+02:27.430 --> 02:33.130
+So knowing all these tricks, you can usually find a command, figure out how to use it, and then implemented
+
+35
+02:33.130 --> 02:33.880
+in your script.
+
+36
+02:34.720 --> 02:38.860
+So this is actually a large part of shell scripting is just adding to the knowledge of commands that
+
+37
+02:38.860 --> 02:42.340
+you know and commands at your disposal and how to use them.

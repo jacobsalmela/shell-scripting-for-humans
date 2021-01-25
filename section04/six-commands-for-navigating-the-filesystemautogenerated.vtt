@@ -1,0 +1,37 @@
+WEBVTT
+
+0
+00:02.750 --> 00:10.460
+So you're going to write a simple file browser script, that's the goal for this section, and I'm going
+
+1
+00:10.460 --> 00:14.790
+to teach you about some commands that are available to use to do that.
+
+2
+00:16.010 --> 00:21.500
+So, again, the Linux like philosophy is basically to write really small programs that do one thing
+
+3
+00:21.680 --> 00:22.370
+really well.
+
+4
+00:23.180 --> 00:25.460
+So there's six commands that will do just that.
+
+5
+00:26.840 --> 00:37.250
+There's the ls command to list files, cd command to change directories, move command to move files
+
+6
+00:37.250 --> 00:48.350
+and also rename them, the rm command to delete folders and files, copy command to copy files and folders,
+
+7
+00:48.410 --> 00:51.520
+and then cat to concatenate files, and view files.
+
+8
+00:52.040 --> 00:54.950
+So let's cover each of those a little bit more in depth.

@@ -1,0 +1,101 @@
+WEBVTT
+
+0
+00:03.030 --> 00:06.300
+That was a lot of work just to get some text written to a file.
+
+1
+00:07.240 --> 00:16.790
+I had to open the editor press, "i", type some text, press, escape, press, ":wq" to quit and
+
+2
+00:16.790 --> 00:20.480
+save and probably just feels like a step backwards, but--
+
+3
+00:22.100 --> 00:27.470
+especially if you've done it for the first time in this lecture.  But vim is actually really powerful.
+
+4
+00:28.130 --> 00:32.150
+And one of the main reasons is that you never have to take your hands off the keyboard.
+
+5
+00:32.910 --> 00:37.490
+You can quickly jump in and out of editing a file and then run your script to make sure it worked.
+
+6
+00:38.630 --> 00:42.470
+And you can even run commands from inside the editor, which is kind of cool.
+
+7
+00:43.100 --> 00:48.770
+And if you actually wrote your script in, like Microsoft Word, you'd end up with a lot more than just
+
+8
+00:48.770 --> 00:49.400
+your text.
+
+9
+00:49.400 --> 00:54.220
+You'd get formatting and metadata that your show is just not going to understand.
+
+10
+00:55.310 --> 00:58.870
+And back in the early days of Linux, all you had was the command line.
+
+11
+00:58.880 --> 01:01.750
+You didn't have those nice graphical interfaces.
+
+12
+01:02.540 --> 01:09.140
+So being able to write, you know, more than one line on the command line is really, really nice.
+
+13
+01:11.030 --> 01:13.310
+So for the rest of this course, we're going to be using vim.
+
+14
+01:14.240 --> 01:19.760
+And if you're feeling nervous about that, don't worry, because it's going to get a lot easier to use
+
+15
+01:20.090 --> 01:22.090
+once you practice it a little bit more.
+
+16
+01:23.150 --> 01:28.280
+And then once you reach a certain point, you'll start to see how valuable it can be to use it.
+
+17
+01:29.300 --> 01:32.790
+There's even many professional programmers that use it as their only editor.
+
+18
+01:33.380 --> 01:35.690
+So congratulations on writing your first script in vim!
+
+19
+01:35.690 --> 01:42.680
+You learned about the shebang, how to write a comment, the echo and printf commands, and
+
+20
+01:42.680 --> 01:44.480
+how to write a file and quit vim.
+
+21
+01:45.440 --> 01:51.020
+In the next section, you're going to run a script and then you'll continue to create and run new scripts
+
+22
+01:51.020 --> 01:52.100
+with new commands.
+
+23
+01:52.520 --> 01:57.380
+So there's going to be just a lot of repeating of that and you'll also get some more practice using
+
+24
+01:57.380 --> 01:57.680
+vim.

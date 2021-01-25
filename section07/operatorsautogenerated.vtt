@@ -1,0 +1,53 @@
+WEBVTT
+
+0
+00:02.080 --> 00:09.610
+So the equals part of the if statement here is called an operator.  So you can check for other things
+
+1
+00:10.090 --> 00:15.490
+other than just if it's equal; you can check mathematical conditions, you can check if it's a file
+
+2
+00:15.640 --> 00:16.600
+or if it's a directory,
+
+3
+00:16.600 --> 00:22.390
+and much more. There's a pretty good list of them on this site, which I have in the notes.
+
+4
+00:23.470 --> 00:25.900
+And I can never remember them all myself,
+
+5
+00:25.900 --> 00:27.580
+so I always reference this one.
+
+6
+00:27.790 --> 00:36.340
+So you can see, like, if it's a file, if the file exists, if it's, uh, the file exists and it's
+
+7
+00:36.340 --> 00:45.040
+readable.  You can check all sorts of different stuff...if it's modified since it was last read,
+
+8
+00:46.570 --> 00:52.110
+and then here's some of the other type of things you can do: if the strings are equal, not equal.
+
+9
+00:54.280 --> 01:02.800
+And then there's all these useful ones for mathematical type stuff: equals, not equals, less than, less
+
+10
+01:02.800 --> 01:05.110
+than or equal...all that stuff.
+
+11
+01:07.140 --> 01:12.420
+So I'll just reference this page if you ever want to see which which ones you might be able to use in
+
+12
+01:12.420 --> 01:19.140
+your script, and then I'm going to cover some of these more common ones like these in the next lecture.

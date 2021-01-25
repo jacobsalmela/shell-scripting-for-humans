@@ -1,0 +1,37 @@
+WEBVTT
+
+0
+00:04.590 --> 00:10.140
+So let's look at our script here...so the cleanup function,
+
+1
+00:12.990 --> 00:21.690
+maybe this cleanup function is only going to run if your script runs into some sort of error so you
+
+2
+00:21.690 --> 00:24.030
+can actually use return codes here, too.
+
+3
+00:25.440 --> 00:25.740
+Yeah,
+
+4
+00:25.740 --> 00:32.760
+so let's just give it a random return code of a non-zero number and then just pretend that
+
+5
+00:37.930 --> 00:39.420
+'this only runs when theres a problem'
+
+6
+00:48.950 --> 00:55.720
+So if you look at that return code, 55, because there was that cleanup function that ran last.
+
+7
+00:56.950 --> 01:03.010
+So that's another way you can kind of you can use your return codes with inside your functions as well
+
+8
+01:03.010 --> 01:04.530
+as your script itself.

@@ -1,0 +1,85 @@
+WEBVTT
+
+0
+00:03.230 --> 00:08.930
+So this 'ls' command doesn't show you a whole lot, it just shows you the files that are there, but you
+
+1
+00:08.930 --> 00:14.210
+can actually modify that to show a lot more information if you had this '-l' at the end.
+
+2
+00:16.800 --> 00:20.520
+And actually, I'm going to make my screen a little bit bigger so that you can see this better.
+
+3
+00:21.060 --> 00:24.270
+So this shows you some more information about these same files.
+
+4
+00:24.270 --> 00:31.070
+And just as one one file per line; this probably looks a little bit cryptic, but there's a couple
+
+5
+00:31.070 --> 00:32.940
+of obvious things we can get out of the way.
+
+6
+00:33.210 --> 00:38.340
+So there's a timestamp of when that was made--modified, the date,
+
+7
+00:39.060 --> 00:41.760
+And this is the user and group that owns the file.
+
+8
+00:42.870 --> 00:43.910
+There's the file name.
+
+9
+00:44.430 --> 00:49.920
+But what you're really concerned about for running your shell scripts is this line here.
+
+10
+00:50.610 --> 00:56.880
+And it looks pretty strange if you've never done Linux file permissions before.
+
+11
+00:58.080 --> 00:58.980
+And that's what these are.
+
+12
+00:58.980 --> 01:01.800
+These are the file permissions for this particular file.
+
+13
+01:02.640 --> 01:08.200
+This is also referred to as the mode, which I'll be telling you about very shortly.
+
+14
+01:08.250 --> 01:14.070
+So for now, just know that "r" is for read.
+
+15
+01:15.000 --> 01:16.260
+"w" is for write.
+
+16
+01:17.220 --> 01:20.640
+And then "x", which is usually here, would be for execute.
+
+17
+01:22.050 --> 01:25.830
+So this file has read, write, read, and read.
+
+18
+01:28.700 --> 01:35.540
+So you can't actually run your script until you have an "x" in here in this line somewhere to make it
+
+19
+01:35.540 --> 01:36.420
+executable.
+
+20
+01:37.130 --> 01:40.210
+I'll show you how to make your script executable in the next section.

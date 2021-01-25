@@ -1,0 +1,97 @@
+WEBVTT
+
+0
+00:02.940 --> 00:09.690
+If you can remember your workflow for writing a script, 'vim' we're going to name our script just 'cd'
+
+1
+00:10.530 --> 00:18.780
+We don't do the '.sh' here just and you'll see why.  Type "i" for Insert, type your shebang
+
+2
+00:23.040 --> 00:23.880
+and a comment.
+
+3
+00:25.190 --> 00:31.770
+'this will change directories and list what's in them'
+
+4
+00:34.050 --> 00:38.320
+So add this in here: 'builtin cd'
+
+5
+00:38.940 --> 00:41.640
+This is saying use a built in cd command
+
+6
+00:46.740 --> 00:48.000
+'$*'
+
+7
+00:49.560 --> 00:53.100
+I'll explain that in a little while, '&&'
+
+8
+00:55.290 --> 01:04.470
+'ls'.  So this is our file browser script; we're just writing it in one line and then type escape
+
+9
+01:06.360 --> 01:07.800
+":wq"
+
+10
+01:10.260 --> 01:11.150
+'chmod'
+
+11
+01:13.560 --> 01:15.710
+'755 cd'
+
+12
+01:19.640 --> 01:20.700
+And that's it.
+
+13
+01:20.990 --> 01:26.810
+So you just wrote a shell script and automated something at the same time, so let's try using your
+
+14
+01:26.870 --> 01:27.530
+new script.
+
+15
+01:27.650 --> 01:32.690
+So let's do './cd' and we'll go into /tmp
+
+16
+01:33.890 --> 01:34.820
+Well, look at that.
+
+17
+01:35.720 --> 01:37.040
+You just automated it.
+
+18
+01:37.310 --> 01:37.970
+You...
+
+19
+01:39.540 --> 01:43.480
+changed directories, and it listed the things for you automatically...pretty cool.
+
+20
+01:45.120 --> 01:48.230
+So the last part of this section is an assignment.
+
+21
+01:48.480 --> 02:02.910
+So you're going to navigate into the /usr.. 'cd /usr/bin' and then use 'ls' or 'ls -l' to list
+
+22
+02:02.910 --> 02:07.830
+through look through some of these commands that are in here and then just try to imagine what some
+
+23
+02:07.830 --> 02:11.790
+of them might do just based on what they're named.

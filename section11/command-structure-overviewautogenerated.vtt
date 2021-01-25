@@ -1,0 +1,41 @@
+WEBVTT
+
+0
+00:02.470 --> 00:07.630
+So when you're using a command and trying to learn how to use it, you first want to check what arguments
+
+1
+00:07.630 --> 00:08.150
+are needed.
+
+2
+00:12.560 --> 00:20.610
+And you can see the requirements are usually arguments, the required fields, and then those are all
+
+3
+00:20.630 --> 00:21.730
+the options.
+
+4
+00:21.860 --> 00:26.600
+So you use the arguments to see what's required for the program to function properly.
+
+5
+00:27.440 --> 00:35.270
+And then the options and the flags are what you use to modify the behavior to do it something slightly
+
+6
+00:35.270 --> 00:35.810
+differently.
+
+7
+00:37.580 --> 00:43.400
+And you can find all this stuff in with the--the help flags or in the man pages.
+
+8
+00:44.240 --> 00:50.120
+And sometimes if a command doesn't have any documentation, then you just have to go to the old Internet
+
+9
+00:50.120 --> 00:51.190
+and search for it.

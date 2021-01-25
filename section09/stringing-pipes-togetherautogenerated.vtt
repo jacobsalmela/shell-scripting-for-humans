@@ -1,0 +1,45 @@
+WEBVTT
+
+0
+00:02.660 --> 00:12.710
+Remember when we did this echo?  We piped this into 'rev' and then we just kept doing that: 'rev', 'rev'...
+
+1
+00:14.180 --> 00:20.390
+So the more pipes you have here, this is basically opening a whole new another shell to run all these
+
+2
+00:20.390 --> 00:21.020
+commands.
+
+3
+00:22.040 --> 00:25.280
+So it's really not a problem when you're doing small datasets like this.
+
+4
+00:25.280 --> 00:31.190
+but as I mentioned, if you do if you get like a huge text file, you're trying to parse through and
+
+5
+00:31.190 --> 00:34.070
+do stuff that can slow things down a bit.
+
+6
+00:34.080 --> 00:36.990
+But really, when you're starting out, you won't have to worry about that at all.
+
+7
+00:37.880 --> 00:43.580
+And it's actually a really nice way to learn because you can just start trimming down a bunch of text
+
+8
+00:43.580 --> 00:49.400
+using a bunch of these different commands like the the grep the cuts, the awk's and the sed's.
+
+9
+00:49.580 --> 00:53.480
+So you can just keep p iping until you get the output that you're looking for.
+
+10
+00:55.040 --> 00:57.590
+So pipes are pretty cool and they can do some nice things.

@@ -1,0 +1,125 @@
+WEBVTT
+
+0
+00:02.770 --> 00:08.130
+All right, so why did I teach you about how those commands are structured so late and all these lectures?
+
+1
+00:08.140 --> 00:12.040
+So now it's fresh in your mind and we can implement them right away in your script.
+
+2
+00:12.940 --> 00:17.990
+So most often, you'll want your script to accept arguments because it makes it a lot more versatile.
+
+3
+00:18.910 --> 00:22.000
+So let's try to make a new one to...
+
+4
+00:23.780 --> 00:31.580
+list some directories only that are in a folder that you pass to it as an argument.
+
+5
+00:34.490 --> 00:37.730
+Let's make one called dir_args.sh.
+
+6
+00:46.170 --> 00:47.820
+'this takes an argument
+
+7
+00:50.890 --> 00:54.980
+and displays only directories'.
+
+8
+00:57.440 --> 01:08.750
+So there's actually a built in argument variable you can use. So you can do this: 'for d' -- for directory
+
+9
+01:08.960 --> 01:15.320
+'in $1'; that means the first argument passed to this.
+
+10
+01:18.190 --> 01:22.480
+'do', 'done', 'echo 
+
+11
+01:26.050 --> 01:26.950
+"echo, the directory"
+
+12
+01:29.800 --> 01:30.400
+'chmod' that...
+
+13
+01:42.520 --> 01:46.030
+So nothing happened because I didn't pass it a directory name
+
+14
+01:49.050 --> 01:54.400
+and /tmp is the only directory there. Let's try /Users or /home.
+
+15
+01:59.250 --> 02:00.850
+We still need to modify it some more.
+
+16
+02:09.490 --> 02:16.480
+Put that star in there...there you go.  So there's all your folders.
+
+17
+02:19.760 --> 02:23.990
+If you did this on your home folder...so--so it's still printing files.
+
+18
+02:26.360 --> 02:29.000
+What we need here...we need the if statement.
+
+19
+02:32.570 --> 02:33.950
+"if $d is a directory"
+
+20
+02:36.410 --> 02:38.330
+and then echo the name,
+
+21
+02:42.150 --> 02:43.040
+otherwise
+
+22
+02:45.680 --> 02:46.240
+skip it.
+
+23
+02:52.730 --> 02:55.190
+Don't forget to close out your statement with 'fi'.
+
+24
+03:00.600 --> 03:07.380
+So there, it printed the just the directories and it skipped all those files.  So you don't have to print
+
+25
+03:07.380 --> 03:10.500
+this and just put the skip in there so you can see it.
+
+26
+03:12.940 --> 03:18.330
+But the main thing I wanted to see is that you could pass in whatever: /Users/shared
+
+27
+03:19.620 --> 03:23.540
+There's some stuff there; skipped through files, but found this directory.
+
+28
+03:24.360 --> 03:25.470
+So that's the nice thing.
+
+29
+03:29.650 --> 03:35.590
+So just this '$1' takes the first the first argument that you pass it and you can--it's
+
+30
+03:35.590 --> 03:37.450
+just a built in variable that you can use.

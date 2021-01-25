@@ -1,0 +1,33 @@
+WEBVTT
+
+0
+00:03.910 --> 00:09.370
+All right, so for these next few lectures, I'm going to have you install an extra utility that will
+
+1
+00:09.370 --> 00:13.690
+allow you to install some other third party commands and stuff.
+
+2
+00:16.300 --> 00:19.540
+So if you go to your browser and go to https://brew.sh.
+
+3
+00:22.370 --> 00:28.430
+There's this command right here, and look, they're using the command output in a variable, how cool
+
+4
+00:28.430 --> 00:28.910
+is that?
+
+5
+00:29.510 --> 00:31.130
+So you can just copy this command.
+
+6
+00:33.090 --> 00:34.470
+Paste it into your terminal
+
+7
+00:37.820 --> 00:40.340
+and then just let that run and finish installing.

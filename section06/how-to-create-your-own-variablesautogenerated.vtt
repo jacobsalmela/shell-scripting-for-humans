@@ -1,0 +1,93 @@
+WEBVTT
+
+0
+00:02.430 --> 00:08.880
+So you can create your own variables for use in your scripts.  You can kind of think of a variable like
+
+1
+00:08.880 --> 00:09.600
+a box.
+
+2
+00:09.870 --> 00:16.000
+The box will stay the same, but you can put different things in it or it can be empty.
+
+3
+00:16.950 --> 00:19.540
+So, like, this could be our box.
+
+4
+00:19.560 --> 00:20.460
+It's a variable.
+
+5
+00:21.600 --> 00:27.880
+But when we run it on the command line, we're telling it to put /tmp in the box and /Users in
+
+6
+00:27.880 --> 00:32.770
+the box and then that variable will expand when our script is run.
+
+7
+00:33.840 --> 00:38.720
+So instead of that variable, your box has these values in it.
+
+8
+00:39.390 --> 00:41.010
+So that's all just kind of theory.
+
+9
+00:41.010 --> 00:44.980
+But let's look at how you can actually make them in your scripts.
+
+10
+00:45.930 --> 00:56.540
+So just clear my screen to get that stuff off there and I'm going to make a new variable called 'allegiance'.
+
+11
+00:57.030 --> 01:04.800
+So the syntax here is a variable name of your choice, the equals sign, and then you set it to whatever
+
+12
+01:04.800 --> 01:05.700
+you want it to equal.
+
+13
+01:06.660 --> 01:16.200
+So I made a variable named 'allegiance' and I said it equal to the word 'dark', for the dark side of the
+
+14
+01:16.200 --> 01:16.620
+force.
+
+15
+01:16.980 --> 01:22.860
+So you can do 'echo $allegiance' and then it has your value in there.
+
+16
+01:23.940 --> 01:31.170
+So create a new script called 'vars.sh', "i" for Insert Mode,
+
+17
+01:36.240 --> 01:39.210
+'#!/bin/bash', a comment if you want
+
+18
+01:42.200 --> 01:51.780
+'my first variable'.  'allegiance=dark', and then I'll just do a little echo.
+
+19
+02:05.600 --> 02:14.180
+So so here I'm using this dollar sign syntax--is what will expand your variable, so I do dollar sign
+
+20
+02:14.180 --> 02:22.610
+and then the variable name that I created.  Escape, ":wq".
+
+21
+02:27.070 --> 02:39.570
+'chmod 755 vars.sh'. So you made your first variable and then now in the next section, you
+
+22
+02:39.570 --> 02:42.030
+can run it and we'll see what's in it.

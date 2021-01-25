@@ -1,0 +1,77 @@
+WEBVTT
+
+0
+00:03.000 --> 00:08.340
+In this lesson, I'm going to teach you how to add a comment to your script.  So you actually already
+
+1
+00:08.340 --> 00:14.010
+added one here since to actually write a comment, you'll be using this hash tag sign.
+
+2
+00:15.390 --> 00:21.690
+So I'll just press enter once and then you'll get to the next line and then you can write the hash sign
+
+3
+00:22.500 --> 00:24.720
+and then whatever comment you want.
+
+4
+00:26.130 --> 00:27.650
+'this is my second script to write
+
+5
+00:33.680 --> 00:42.260
+text to the screen'.  The comments as a second line is a very useful thing to do because it can basically
+
+6
+00:42.470 --> 00:47.570
+tell you what your script is going to do, whether that's you reading it or somebody else.
+
+7
+00:48.120 --> 00:49.960
+It's just a--you don't have to put it there,
+
+8
+00:49.970 --> 00:57.710
+but I like to do it because it's easy to remember and then it's helpful for yourself.  And you don't need
+
+9
+00:57.710 --> 00:59.360
+the space here, but you can put it here.
+
+10
+00:59.510 --> 01:01.310
+I like to put it there just for the styling.
+
+11
+01:02.430 --> 01:07.510
+What makes it a little bit easier to read and you'll notice some people will do, you know, some people
+
+12
+01:07.510 --> 01:14.640
+will use capitalization and correct punctuation, but it's really up to you how you want to do it.
+
+13
+01:15.600 --> 01:21.840
+But you just have to make sure this comment character is there and then you can type whatever you want
+
+14
+01:21.840 --> 01:23.310
+and it won't get executed.
+
+15
+01:23.880 --> 01:28.860
+So if you ran your script right now, it would just do nothing because there's no actual commands being
+
+16
+01:28.860 --> 01:29.220
+run.
+
+17
+01:30.270 --> 01:36.810
+So in the next lecture, you'll write another echo command to print some text to the screen and then
+
+18
+01:37.680 --> 01:39.870
+we'll save your file and then we'll run it.

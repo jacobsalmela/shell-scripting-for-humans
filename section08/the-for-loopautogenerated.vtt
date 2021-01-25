@@ -1,0 +1,89 @@
+WEBVTT
+
+0
+00:02.430 --> 00:10.920
+All right, so the for loop here is a very common one to use in shell scripting. Many systems admins
+
+1
+00:10.920 --> 00:15.060
+and engineers will even use them outside of a script and just write them on the fly.
+
+2
+00:15.300 --> 00:18.240
+As an example for your script--renaming script,
+
+3
+00:18.240 --> 00:25.380
+you want to do you want to loop through all the files in this Pictures/ directory and do something to
+
+4
+00:25.380 --> 00:29.790
+them so you can actually just write this out on the command line really quickly.
+
+5
+00:30.900 --> 00:37.830
+So 'for f' in this folder and everything inside of it,
+
+6
+00:39.770 --> 00:43.400
+'do' print the file name.
+
+7
+00:45.500 --> 00:51.860
+I'm just going to put a 'sleep 1' in here, which is just a simple command to wait one second so you
+
+8
+00:51.860 --> 00:54.200
+can kind of see how this is looping.
+
+9
+00:56.540 --> 01:03.860
+So there is printing off all the file names here.  IMG9912, IMG9913, IMG9914--all those different files.
+
+10
+01:05.090 --> 01:14.660
+So this is--this ad-hoc kind of a 'for' loop that you do here, systems engineers and admins will do this
+
+11
+01:14.660 --> 01:15.040
+a lot.
+
+12
+01:15.050 --> 01:26.210
+They'll type in...you know...'for f in ' "this-ten-servers, go log in and run this command and then be done."
+
+13
+01:26.540 --> 01:32.300
+Because a lot of times you'll have to do the same command on, you know, 10 or 20--hundreds of servers
+
+14
+01:32.300 --> 01:32.990
+all at once.
+
+15
+01:33.410 --> 01:34.580
+There's other tools that do that
+
+16
+01:34.580 --> 01:40.310
+but sometimes you just need to run one quick command and then that's a good way to just do it.
+
+17
+01:40.610 --> 01:43.430
+So the 'for' loop is pretty useful.
+
+18
+01:45.080 --> 01:53.570
+So if you did like an 'ls', you know--you'd get all the same information, but you're not actually looping
+
+19
+01:53.570 --> 01:54.120
+through it.
+
+20
+01:54.380 --> 01:57.050
+This is just a list of all the files.
+
+21
+01:57.560 --> 02:01.970
+So let's port this over to your script in the next lecture.

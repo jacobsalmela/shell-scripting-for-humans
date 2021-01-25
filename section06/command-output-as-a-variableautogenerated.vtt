@@ -1,0 +1,202 @@
+WEBVTT
+
+0
+00:02.550 --> 00:07.890
+So I'm going to show you how to save the output of a command into a variable which can be useful during
+
+1
+00:07.890 --> 00:14.520
+shell scripting, because you might want to save whatever output a command produces and then use--manipulate
+
+2
+00:14.520 --> 00:16.020
+or only shows certain parts of it.
+
+3
+00:17.460 --> 00:20.490
+So there's two different syntaxes for this:
+
+4
+00:20.730 --> 00:28.470
+so you use the same output variable name equals, but then you can do backticks and whatever command
+
+5
+00:28.470 --> 00:30.720
+you have in there will be saved as the output.
+
+6
+00:33.850 --> 00:39.040
+So that would be the same as running just running the ls command, except we just did it in a variable.
+
+7
+00:41.220 --> 00:52.300
+The other syntax you can use is a dollar sign parentheses.
+
+8
+00:53.080 --> 00:54.560
+I like that syntax a little better:
+
+9
+00:54.670 --> 01:01.800
+it's easier for me to read because it's using the dollar sign already so that I know it's a variable and
+
+10
+01:01.810 --> 01:04.510
+then I can go:
+
+11
+01:07.010 --> 01:20.060
+'echo $output2'.  Let's put this into a script now, so let's make a new script called 'cmd_output_vars.sh'
+
+12
+01:21.080 --> 01:24.660
+So you can actually use the touch command just to make a empty file.
+
+13
+01:25.160 --> 01:26.940
+It's just a blank, empty file.
+
+14
+01:28.190 --> 01:30.690
+But let's get the real path to that folder.
+
+15
+01:33.830 --> 01:38.900
+And if you notice, I can you can start typing--
+
+16
+01:39.020 --> 01:44.840
+I didn't show you this before, but you can type the start of the word and then tab and then it will
+
+17
+01:44.840 --> 01:45.980
+autocomplete for you.
+
+18
+01:46.430 --> 01:46.930
+Just a little,
+
+19
+01:46.940 --> 01:47.880
+nice trick to know.
+
+20
+01:49.400 --> 01:52.160
+So that gives me the--the full path to the thing.
+
+21
+01:53.030 --> 01:58.760
+If you're on Linux and you don't have that path--real path command, just type 'pwd' and you can get
+
+22
+01:58.760 --> 02:02.630
+what it is--what directory you're in and then just add that on there.
+
+23
+02:03.080 --> 02:11.660
+Once you have that full path name, just copy it there and try this command: 'basename' and then paste
+
+24
+02:11.660 --> 02:13.160
+in that whole path.
+
+25
+02:14.820 --> 02:22.800
+So that gives you just the file name based on the full path.  Knowing that, let's make a script here:
+
+26
+02:25.050 --> 02:32.940
+'vim cmd' then tab will auto autocomplete that for you and it's just our empty file that we made.
+
+27
+02:34.560 --> 02:35.730
+So let's do
+
+28
+02:39.300 --> 02:46.330
+'#!/bin/bash'
+' this saves command output to a variable'
+
+29
+02:52.130 --> 02:54.320
+So I'll do 'scriptpath=
+
+30
+02:57.800 --> 02:58.160
+/Users/goku/cmd_output_vars.sh'
+
+31
+03:00.170 --> 03:09.500
+So that's--this is just a script path, but we're just putting a string in there and then we'll make
+
+32
+03:09.500 --> 03:18.290
+a new--another new variable called 'filename', and then we'll use this dollar syntax and we'll
+
+33
+03:18.290 --> 03:24.740
+try our basename command and then we'll use our variable again.
+
+34
+03:27.110 --> 03:32.420
+So basically, we're going to be running the basename command against whatever's in this variable,
+
+35
+03:33.320 --> 03:36.650
+which is this path, which we define right there.
+
+36
+03:38.660 --> 03:44.510
+So you can save the output of any command into the into a variable, but once you get to like, you know,
+
+37
+03:44.510 --> 03:50.540
+commands that have different columns or special characters, it can get a little bit sticky.
+
+38
+03:51.170 --> 03:53.210
+So don't go too much into depth on that.
+
+39
+03:53.210 --> 03:55.880
+But just know that you can do this.
+
+40
+03:56.000 --> 03:56.780
+But it works--
+
+41
+03:56.930 --> 04:04.100
+This works best for just real simple--simple text strings to save them as a variable.
+
+42
+04:05.250 --> 04:06.900
+So escape, ":wq"
+
+43
+04:08.960 --> 04:16.080
+'chmod 755'...and you can use this little special syntax to use the last file or last
+
+44
+04:16.080 --> 04:17.040
+argument that you did.
+
+45
+04:19.540 --> 04:22.570
+command-'./cmd_output_vars.sh'
+
+46
+04:24.160 --> 04:26.440
+We actually didn't do any output there,
+
+47
+04:30.340 --> 04:31.420
+so let's do that.
+
+48
+04:33.610 --> 04:42.370
+'echo'--we'll use our escape here '\$filename is $filename.'
+
+49
+04:46.980 --> 04:50.510
+So there: our filename variable, is cmd_output_vars.sh

@@ -1,0 +1,65 @@
+WEBVTT
+
+0
+00:03.020 --> 00:06.240
+So I already told you it's helpful to, like, reuse your code within a loop.
+
+1
+00:07.220 --> 00:12.800
+But, you know, if you find yourself writing code, that's exactly the same, like maybe you originally
+
+2
+00:12.800 --> 00:19.400
+did make a script that went and had all these hard codes in it and renamed each one individually, then
+
+3
+00:19.400 --> 00:21.710
+its--that would be a good time to consider using a loop.
+
+4
+00:22.010 --> 00:26.620
+Or maybe you've written some code that's not exactly the same, but it's, you know, pretty similar...
+
+5
+00:27.500 --> 00:33.200
+you could add a loop statement there and then just add some if/else conditionals to check for certain
+
+6
+00:33.200 --> 00:33.710
+things.
+
+7
+00:34.490 --> 00:41.120
+Anytime you write a script, you might be needing to reuse some of that code, even if it's for
+
+8
+00:41.120 --> 00:42.710
+like a completely different project.
+
+9
+00:42.980 --> 00:49.490
+So in general, you want to try to recreate or write reuseable generic code.
+
+10
+00:50.330 --> 00:52.940
+And if you're doing scripting for work, that's not always possible.
+
+11
+00:52.940 --> 00:57.620
+And sometimes you just need to paste all your commands into a script and run it.  That can work,
+
+12
+00:57.620 --> 00:58.730
+but it's also fragile.
+
+13
+00:59.030 --> 01:02.880
+And if you're using hard codes, it's more likely to break.
+
+14
+01:04.070 --> 01:11.660
+But the takeaway here is that while you're scripting this: to think about not repeating yourself while
+
+15
+01:11.660 --> 01:15.410
+you're writing code, and if you are, it's time to use a loop.

@@ -1,0 +1,69 @@
+WEBVTT
+
+0
+00:04.950 --> 00:12.000
+What is a loop?  A loop lets you run the same code over and over and you can do some cool stuff with
+
+1
+00:12.000 --> 00:12.240
+it.
+
+2
+00:13.140 --> 00:15.480
+So right now your script is broken.
+
+3
+00:15.870 --> 00:25.350
+It doesn't work at all because the '$files' variable has all these file names in it and you can't actually
+
+4
+00:25.590 --> 00:28.710
+rename all the files to just a single word.
+
+5
+00:29.460 --> 00:35.100
+If you want to do a task like this, it's actually easier to just use a little loop that will go through
+
+6
+00:35.250 --> 00:39.150
+every single file and then do something to each one.
+
+7
+00:40.680 --> 00:46.440
+Loops are actually good because it can make your code reusable because you don't want to write out a
+
+8
+00:46.440 --> 00:51.510
+mv--mv statement--rename each of these individual files each time.
+
+9
+00:51.780 --> 00:57.750
+Because what if you get an IMG9915? Then you have to go in and modify your script
+
+10
+00:57.750 --> 00:58.980
+to rename that.
+
+11
+01:00.090 --> 01:01.770
+That's not tedious.
+
+12
+01:01.890 --> 01:10.800
+So you want to make a generic loop that can match any of these image files because they are probably
+
+13
+01:10.800 --> 01:12.470
+most likely start with IMG;
+
+14
+01:12.750 --> 01:15.330
+they'll just have a number at the end.  And then,
+
+15
+01:16.870 --> 01:21.300
+you want to be able to reuse your script any time you get some new pictures like these.
+
+16
+01:23.050 --> 01:26.320
+So the loop that we're going to make will do just that.

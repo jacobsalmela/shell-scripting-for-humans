@@ -1,0 +1,88 @@
+WEBVTT
+
+0
+00:02.310 --> 00:08.080
+All right, so now that you know about functions, we can start getting into some more cool, complex stuff.
+
+1
+00:09.260 --> 00:17.390
+So let's make a script called 'version.sh'.  
+With the ol' shebang. 
+[Musical signing] She-bang!
+
+2
+00:26.020 --> 00:36.590
+So let's just make a variable here called--this will just be an arbitrary version and then make a function
+
+3
+00:37.040 --> 00:37.940
+called version.
+
+4
+00:39.420 --> 00:53.400
+So I put the variable name in caps here--so version, parentheses, bracket, and then we want to
+
+5
+00:53.730 --> 00:54.000
+'echo $VERSION'
+
+6
+00:56.820 --> 01:00.930
+'exit 0' and then close it out.
+
+7
+01:01.500 --> 01:05.100
+So we want to exit 0 because all we're doing is printing a version;
+
+8
+01:05.130 --> 01:07.830
+there's nothing really bad going to happen there.
+
+9
+01:09.390 --> 01:10.740
+So quit that. 
+[Typing]
+
+10
+01:20.520 --> 01:23.970
+But that didn't actually do anything, and that's I expected that. (did I?)
+
+11
+01:26.490 --> 01:33.900
+So if you go when you define the function like you did here, you're not actually calling it, you're
+
+12
+01:33.900 --> 01:40.650
+just calling it that--that you want to have that code there to be able to use, but then you actually have
+
+13
+01:40.650 --> 01:41.430
+go and call it.
+
+14
+01:43.290 --> 01:46.650
+So here you just type the name of your function and it will run.
+
+15
+01:50.240 --> 01:59.000
+'1.0'.  So the cool thing is you can reuse your function: type it again.
+
+16
+02:02.720 --> 02:03.130
+So.
+
+17
+02:08.260 --> 02:13.660
+Yeah, so the code exited there, but if you remove that...
+
+18
+02:16.610 --> 02:19.820
+you can use so you can reuse the code as much as you'd like.
+
+19
+02:25.040 --> 02:29.340
+So for now, we'll just leave it like that.
+
+20
+02:29.510 --> 02:32.630
+So that will be your version script using a function.

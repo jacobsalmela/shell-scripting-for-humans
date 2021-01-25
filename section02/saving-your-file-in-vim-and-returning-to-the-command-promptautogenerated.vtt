@@ -1,0 +1,77 @@
+WEBVTT
+
+0
+00:03.440 --> 00:05.360
+Well, your first script is written.
+
+1
+00:05.960 --> 00:07.520
+You've got your shebang up here.
+
+2
+00:08.690 --> 00:15.400
+You've got your comment, then you've got two lines to print text to the screen in two different ways,
+
+3
+00:16.610 --> 00:17.640
+But how do you save it?
+
+4
+00:18.260 --> 00:19.350
+How do you save your file?
+
+5
+00:20.360 --> 00:25.490
+So remember, I said there was different modes that there are in vim?  Right now,
+
+6
+00:25.490 --> 00:30.530
+you're in insert mode, which just lets you type text however you want.
+
+7
+00:31.220 --> 00:39.320
+So if you hit escape key once--see that insert disappeared now?  Now you're in what's called Command
+
+8
+00:39.320 --> 00:39.740
+Mode.
+
+9
+00:40.250 --> 00:44.750
+There's no actual indicator that you're in this mode except that there's just nothing down here.
+
+10
+00:45.920 --> 00:51.980
+And it's the default mode that you get into when you first opened vim, which is why you had to press
+
+11
+00:51.980 --> 00:53.900
+"i" to go into Insert Mode.
+
+12
+00:55.220 --> 01:03.020
+So now that you're in Command Mode type ":w" to write the file and then press enter.
+
+13
+01:04.280 --> 01:10.730
+So there there you see the script is written, which is the same as saving it, but you're still actually
+
+14
+01:10.730 --> 01:11.560
+in the editor.
+
+15
+01:12.320 --> 01:13.940
+So how do you actually quit out of it?
+
+16
+01:14.120 --> 01:18.140
+The same way: press ":".
+
+17
+01:18.650 --> 01:25.820
+But this time do "q" for quit. Press enter and then you're back at your command line and your script has
+
+18
+01:25.820 --> 01:26.510
+been saved.

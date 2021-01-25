@@ -1,0 +1,53 @@
+WEBVTT
+
+0
+00:02.940 --> 00:08.820
+So checking if something is true in your script is pretty useful, but in order for it to be a little
+
+1
+00:08.820 --> 00:12.300
+more versatile, it should know what to do if something is not true.
+
+2
+00:13.260 --> 00:15.810
+So that's where, if/else statements come in.
+
+3
+00:16.650 --> 00:20.970
+So this just kind of expands upon your if statement.
+
+4
+00:24.260 --> 00:33.350
+So once--here, instead of just ending it with 'fi', you'll have another line that says 'else' and then you put two
+
+5
+00:33.350 --> 00:44.510
+spaces in there and say so if the variable name is not a file, the else condition will say it's not
+
+6
+00:44.510 --> 00:44.990
+a file.
+
+7
+00:46.760 --> 00:50.960
+So that's really all there is to adding some extra logic to your thing.
+
+8
+00:52.340 --> 00:59.030
+So right now, this is--this else statement will never get reached because we already know that this is a
+
+9
+00:59.030 --> 01:03.310
+file, but let's run it anyway and see what happens.
+
+10
+01:05.830 --> 01:14.890
+Yep, so you can actually do a 'bash -x' to get some output and see that it does test for it still.
+
+11
+01:19.130 --> 01:28.820
+So it's checking--so that's checking--the file names match,  That checks if it's a file and then it just
+
+12
+01:28.820 --> 01:32.120
+is done because that else statement doesn't get checked.
