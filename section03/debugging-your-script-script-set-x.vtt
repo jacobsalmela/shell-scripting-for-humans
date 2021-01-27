@@ -1,0 +1,108 @@
+WEBVTT
+
+0
+00:02.600 --> 00:08.720
+So now that you know how to write a script in vim, make it executable with chmod and run it.  You can
+
+1
+00:08.720 --> 00:11.550
+practice that whole workflow by making a brand new script.
+
+2
+00:12.110 --> 00:20.140
+So I'm just going to clear my screen here, and I want you to make a new script called debug.sh.
+
+3
+00:20.360 --> 00:28.350
+So do 'vim debug.sh'.  Press "i" once for Insert Mode. Write your
+
+4
+00:28.370 --> 00:40.670
+shebang. 
+[Musical singing] "Sha-baaaaaang!
+Add a comment: 'this adds debug output to the script'
+
+5
+00:42.440 --> 00:45.140
+Now here's a new command 'set -x'
+
+6
+00:45.710 --> 00:54.200
+The 'set' command lets you set all sorts of different, you know, options and things you can do for your
+
+7
+00:54.200 --> 00:54.700
+terminal.
+
+8
+00:55.460 --> 01:01.070
+This 'x' basically turns on debug mode so you can see more output from your script when it runs.
+
+9
+01:02.720 --> 01:17.570
+And then type 'echo i can debug my script now'
+Press escape once, type ":wq" 
+[Upbeat singing] "Colon w q!"
+
+10
+01:19.040 --> 01:22.310
+'chmod 755 debug.sh'
+
+11
+01:28.070 --> 01:30.650
+Then type './debug.sh'
+
+12
+01:33.510 --> 01:42.690
+So now, when you ran your script with that 'set -x', basically every line that's in your script
+
+13
+01:42.690 --> 01:48.870
+will print the line of code that you wrote and then its output as well.
+
+14
+01:49.430 --> 01:55.590
+So this little plus here is the line of code that's being run and then this is the actual output from
+
+15
+01:55.590 --> 01:55.790
+it.
+
+16
+01:56.670 --> 02:03.640
+So that's just a nice way to get to get the debug output onto your script.
+
+17
+02:05.040 --> 02:10.060
+So practice this once more, just type 'vim debug2.sh'
+
+18
+02:10.090 --> 02:18.930
+this time. 'vim debug2.sh'.  "i" for Insert Mode,  '#!/bin/bash'
+
+19
+02:22.020 --> 02:22.800
+add a comment
+
+20
+02:24.750 --> 02:38.070
+'set -x', 
+'echo debugging some more'
+'echo another line'
+Escape, ":wq"
+
+21
+02:39.970 --> 02:42.520
+'chmod 755 debug2.sh'
+
+22
+02:44.200 --> 02:47.380
+'./debug2.sh'
+
+23
+02:48.240 --> 02:53.070
+Mostly, that was just so you can get some more practice doing this workflow: the 'vim', the 'chmod'
+
+24
+02:53.070 --> 02:55.830
+and then './script.sh' to run your script.
