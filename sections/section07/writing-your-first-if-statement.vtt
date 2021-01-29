@@ -1,0 +1,99 @@
+WEBVTT
+
+0
+00:02.030 --> 00:04.000
+I'm going to show you how to write an if statement.
+
+1
+00:04.040 --> 00:09.830
+It's basically a simple way to check if a certain condition exists in your code and then do something
+
+2
+00:09.830 --> 00:11.000
+based on that result.
+
+3
+00:12.430 --> 00:15.110
+Copy your cmd_ouput_vars.sh
+
+4
+00:16.830 --> 00:27.220
+And just make a 'if.sh' script and then go in and edit that, if.sh file. So that saved
+
+5
+00:27.220 --> 00:34.760
+you some typing there and the if statement looks like this: you do 'if
+
+6
+00:37.640 --> 00:39.440
+"Something equals true"
+
+7
+00:42.230 --> 00:44.330
+Col--semicolon,
+'then'
+
+8
+00:48.410 --> 00:59.480
+"do something"
+"do stuff here" and then you close the if statement with the 'fi' word--just if backwards.
+
+9
+01:01.580 --> 01:08.480
+Maybe we want to match if our file name is equal to something then we can do something based on that.
+
+10
+01:11.020 --> 01:25.570
+So let's go up and edit this, let's say "if our filename is equal to--and I'll put 'vars.sh', then we want
+
+11
+01:25.570 --> 01:28.180
+to just say...
+
+12
+01:31.400 --> 01:33.260
+'filename matches!'
+
+13
+01:37.310 --> 01:46.910
+escape and ":wq!"--the bang sign there, was just out of habit for me, it overrides basically force
+
+14
+01:46.910 --> 01:53.060
+overrides the saving of the file and we don't need to do the 'chmod' because we actually copied the
+
+15
+01:53.060 --> 01:53.510
+file.
+
+16
+01:54.050 --> 01:58.850
+So it has the execute permissions on there already.
+
+17
+02:02.330 --> 02:02.820
+There we go.
+
+18
+02:03.350 --> 02:09.080
+So filename is cmd_output_vars.sh, and then our 'if' statement worked.
+
+19
+02:12.470 --> 02:14.870
+So we said "if the file name,
+
+20
+02:16.510 --> 02:24.980
+which is cmd_output_vars.sh, is equal to cmd_output_vars.sh, then each then print this message"
+
+21
+02:25.780 --> 02:28.120
+So that was just our little if conditional check.
+
+22
+02:29.650 --> 02:31.720
+So now you know how to write an if statement.
+
+23
+02:32.860 --> 02:42.130
+You do 'if [[ your condition ]]; then echo stuff; fi'

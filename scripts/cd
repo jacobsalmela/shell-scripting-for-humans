@@ -1,0 +1,3 @@
+#!/bin/bash
+# this will change directories and list whats in them
+builtin cd $* && ls
